@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    /* background-color: rgb(185, 2, 63); */
+
+}
+
+.call_us{
+
+    width: 90vw;
+     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(0, 242, 255);
+    border-style: solid;
+}
+.call_us_text{
+   
+    width: 79vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.email{
+    width: 90vw;
+     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:   rgb(0, 242, 255);
+ 
+    border-style: solid;
+}
+.email_text{
+    color: black;
+    width: 79vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.followus{
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+   color: white;
+
+   border: none;
+   font-size: 45px;
+   font-weight: lighter;
+   margin: 0%;
+   padding-right: 20%;
+   width: 100%;
+   position: relative;
+}
+.facebook{
+      top: 20px;
+
+}
+.insta{
+    position:absolute;
+    border: none;
+
+   color: black;
+}
+
+
+/* 
+payment send email to me and anty not Ghada  that someone registered 
+send payment by OMT to +96170605396
+*/
