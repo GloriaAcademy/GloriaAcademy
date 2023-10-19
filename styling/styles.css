@@ -138,6 +138,7 @@ padding-bottom: 5vh;
     font-size: 17px;
     color: white;
     font-weight: bolder;
+    box-shadow: 0 0 40px rgb(10, 72, 66);
     background-image: linear-gradient(to bottom right, turquoise, rgb(0, 191, 255));
 
 }
@@ -175,4 +176,16 @@ text-decoration:none;
     color: white;
     padding: 2%;
     margin: 3px;
+    box-shadow: 0 0 40px black;
+}
+
+.button_nav_same{
+    border: none;
+    border-radius: 7px;
+    background-color: green;
+    font-size: 15px;
+    color: white;
+    padding: 2%;
+    margin: 3px;
+    box-shadow: 0 0 40px black;
 }

@@ -1,4 +1,5 @@
 *{
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,34 +43,39 @@ margin-bottom: 200vh;
     border-radius: 50%;
 }
 .mainupper{
-    padding-left: 10vw;
+    padding-left: 5vw;
     padding-top: 5px;
-    padding-right: 40px;
+    padding-right: 7.9vw;
 }
 .type{
     border-radius: 4%;
-    padding: 4px;
+    padding: 1vi;
     color: black;
+    box-shadow: 0 0 5px black;
+
 }
 .submit{
+    box-shadow: 0 0 10px black;
+
     color: white;
     border: none;
     background-image: linear-gradient(to bottom right, blue, rgb(0, 242, 255));
-padding: 6%;
+padding: 1vi;
 border-radius:5px ;
 margin-left: 1px;
-margin-right: 10vw;
+
 }
 .contactus{
+    box-shadow: 0 0 30px black;
     background-image: linear-gradient(to bottom right, blue, rgb(0, 191, 255));
     margin-right: -15px;
     border: none;
     color: white;
-    padding-left: 10%;
-padding-top: 10%;
-padding-bottom: 10%;
-padding-right: 10%;
-   margin-left: 10vw;
+padding-top: 2vh;
+padding-bottom: 2vh;
+padding-right: 2vw;
+padding-left: 2vw;
+   margin-left: 20vw;
     /* margin-bottom: 7%;
     margin-top: 2%; */ 
     border-radius: 7px;
@@ -84,6 +90,7 @@ padding-right: 10%;
     font-size: larger;
     padding-bottom: 1vh;
     color: black;
+   
 }
 .buttons_menu2{
 
@@ -119,3 +126,14 @@ color: black;
 }
 
 
+.buttonsame_menu{
+    width: 22%;
+    padding-top: 1vh;
+    border: none;
+    background-color: white;
+    padding-right: 15w;
+    font-size: larger;
+    padding-bottom: 1vh;
+    
+    color: red;
+}

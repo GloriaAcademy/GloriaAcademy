@@ -57,6 +57,13 @@ p{
    
     padding-left: 5vw; 
 }
+.samecourses{
+    text-decoration: none;
+    color: #2136da;
+    font-size: 15px;
+   
+    padding-left: 5vw; 
+}
 
 
 .toggle_Registration .DRS_textt{
@@ -94,7 +101,8 @@ font-size: 20px;
     }
 .Edubutton{
     margin-left: 20px;
-   background-color: rgb(75, 72, 243);;
+   background-color: rgb(75, 72, 243);
+   box-shadow: 0 0 40px black;
    border: none;
    color: white;
    padding: 2%;

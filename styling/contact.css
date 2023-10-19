@@ -5,7 +5,7 @@
 }
 
 .call_us{
-
+    box-shadow: 0 0 40px rgb(10, 72, 66);
     width: 90vw;
      height: 70px;
     display: flex;
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     border:   rgb(0, 242, 255);
- 
+    box-shadow: 0 0 40px rgb(10, 72, 66);
     border-style: solid;
 }
 .email_text{
@@ -60,13 +60,15 @@
 }
 .facebook{
       top: 20px;
+  
 
 }
 .insta{
     position:absolute;
     border: none;
-
+    
    color: black;
+ 
 }
 
 
