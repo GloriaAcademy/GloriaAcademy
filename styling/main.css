@@ -17,31 +17,8 @@ transition: all 0.35s ease-in-out; */
    .bar{
     position:relative;
    }
-/* .aboutus_button{
-    text-decoration: none;
-    color: white;
-padding-top: 3%;
-padding-bottom: 1%;
-padding-left: 5vw;
-margin-bottom: 200vh;
-    background-image:linear-gradient(to bottom right, blue, rgb(0, 191, 255));
 
-}  */
-.outer{
-    align-items: start;
-    display: flex;
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    position: relative;
-}
-.inner{
-    background: orange;
-    border: 20px;
-    width: 200px;
-    height: 100px;
-    border-radius: 50%;
-}
+
 .mainupper{
     padding-left: 5vw;
     padding-top: 5px;
