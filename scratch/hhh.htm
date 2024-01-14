@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility:hidden;
+  width: 200px;
+  height: 130px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+
+  bottom: -95%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility:  visible;
+}
+
+
+
+</style>
+</head>
+<body style="text-align:center">
+
+<br>
+<br>
+<h2>Payment</h2>
+<div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup" onclick="dfunction()">
+    <form action="https://formsubmit.co/758237060ef6d536743a6fc4ec5764db" method="POST">
+    <input type="text"  name="Name" placeholder="Full Name" required>
+    <br>
+    <input type="email" name="Email" placeholder="Email" required>
+   <br>
+   <select name="Major" >
+    <option >student</option>
+    <option >teacher</option>
+</select>
+<textarea name="major" placeholder="Subject/Major (optional)"></textarea>
+<button  type="submit">Proceed to Pay</button>
+</form>
+  </span>
+</div>
+
+<!-- <div class="popup" onclick="myFunction()">Register
+        <form class="popuptext"action="https://formsubmit.co/ae2ed06c654bdf68b046605f36a93387" method="POST">
+    
+            <input type="text"  name="Name" placeholder="Full Name" required>
+            <br>
+            <input type="email" name="Email" placeholder="Email" required>
+           <br>
+        
+        <select name="Major" >
+            <option >student</option>
+            <option >teacher</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="major" placeholder="Subject/Major (optional)"></textarea>
+        <br>
+        <br>
+        <button type="submit">Proceed to Pay</button>
+        </form>
+  
+</div> -->
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popuptext = document.getElementById("myPopup");
+  popuptext.classList.toggle("show");
+ 
+}
+function dfunction(){
+  var popuptext = document.getElementById("myPopup");
+  popuptext.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>

@@ -64,7 +64,13 @@ p{
    
     padding-left: 5vw; 
 }
+.allcourses{
+    text-decoration: none;
+    color: #2136da;
+    font-size: 20px;
+   
 
+}
 
 .toggle_Registration .DRS_textt{
     color: white;
