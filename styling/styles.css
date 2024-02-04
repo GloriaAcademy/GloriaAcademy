@@ -1,6 +1,6 @@
 
 b {
-    color:rgb(0, 100, 220);
+    color:#0d0ac7;
     font-size: 25px;
     text-align: center;
       letter-spacing: 0.3px;
@@ -11,7 +11,7 @@ b {
 p{
     max-width: 90%;
     padding-bottom: 0vh;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     margin-left: 10px;
     color: #161922;
@@ -142,8 +142,8 @@ padding-bottom: 5vh;
     color: white;
     font-weight: bolder;
     box-shadow: 0 0 40px rgb(10, 72, 66);
-    background-image: linear-gradient(to bottom right, turquoise, rgb(0, 191, 255));
-
+background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
+/* background-color: #0d0ac7; */
 }
 
 .contactbutton{

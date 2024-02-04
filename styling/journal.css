@@ -3,7 +3,7 @@
     color: #130573;
     font-size: 12px;
     border: none;
-padding-left: 7vw;
+padding-left: 4vw;
     background-color: white;
     font-family: "Arial", Helvetica, Arial, sans-serif;
   
@@ -14,8 +14,8 @@ padding-left: 7vw;
   color: #130573;
   font-size: 12px;
   border: none;
-  padding-left: 5vw;
-padding-right: 5vw;
+  padding-left: 3vw;
+padding-right: 0vw;
   background-color: white;
   font-family: "Arial", Helvetica, Arial, sans-serif;
 
@@ -26,7 +26,7 @@ padding-right: 5vw;
   color: #130573;
   font-size: 12px;
   border: none;
-padding-left: 16vw;
+padding-left: 5vw;
 
   background-color: white;
   font-family: "Arial", Helvetica, Arial, sans-serif;
@@ -79,4 +79,28 @@ b {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+.CONDITIONSAME{
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  padding-right: 10px;
+}
+.CONDITION{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 5px;
+}
+.buttonman{
+  font-size: 20px;
+  padding: 10px 20px 10px  20px;
+  margin: 10px;
+  width: 500px;
+  border: solid;
+  border-radius: 10px;
+  background-color: #0d0ac7;
+  color: white;
+  box-shadow: 0 0 30px black;
 }

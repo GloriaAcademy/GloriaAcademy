@@ -11,7 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgb(0, 242, 255);
+    border:   #0d0ac7;
+    border-width: 5px;
+    border-radius: 10px;
     border-style: solid;
 }
 .call_us_text{
@@ -31,7 +33,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border:   rgb(0, 242, 255);
+    border:   #0d0ac7;
+    border-width: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 40px rgb(10, 72, 66);
     border-style: solid;
 }

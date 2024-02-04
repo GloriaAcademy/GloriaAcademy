@@ -53,14 +53,14 @@ p{
 .courses{
     text-decoration: none;
     color: #000;
-    font-size: 15px;
+    font-size: 20px;
    
     padding-left: 5vw; 
 }
 .samecourses{
     text-decoration: none;
     color: #2136da;
-    font-size: 15px;
+    font-size: 25px;
    
     padding-left: 5vw; 
 }
@@ -107,11 +107,12 @@ font-size: 20px;
     }
 .Edubutton{
     margin-left: 20px;
-   background-color: rgb(75, 72, 243);
+   background-color: #0d0ac7;
    box-shadow: 0 0 40px black;
    border: none;
    color: white;
    padding: 2%;
+   font-size: 20px;
    border-radius: 7px;
 }
 

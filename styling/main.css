@@ -8,14 +8,25 @@
 }
 /*    -webkit-transition: all 0.35s ease-in;
 transition: all 0.35s ease-in-out; */
+.table {
+    position: fixed;
+}
+
 .main{
     image-resolution:initial;
-    height: 400px;
+    height: 350px;
+    width: 100%;
+
+
+}
+.main-search{
+    image-resolution:initial;
+    height: 300px;
     width: 100%;
 
 }
-
 .search{
+    
     color: white;
     text-decoration: none;
 }
@@ -48,9 +59,10 @@ margin-bottom: 200vh;
     border-radius: 50%;
 }
 .mainupper{
-    padding-left: 5vw;
-    padding-top: 5px;
-    padding-right: 7.9vw;
+   margin-left: 5vw;
+   margin-top: 5px;
+   margin-right: 7.9vw;
+    box-shadow: 0 0 30px black;
 }
 .type{
     border-radius: 4%;
@@ -60,12 +72,14 @@ margin-bottom: 200vh;
 
 }
 .submit{
-    box-shadow: 0 0 10px black;
-font-size: 20px;
-    color: white;
-    border: none;
-    background-image: linear-gradient(to bottom right, blue, rgb(0, 242, 255));
-padding-left: 5vi;
+
+    background-color: hsl(241, 90%, 41%);   
+    box-shadow: 0 0 30px black;
+    font-size: 20px;
+    color: #ffffff;
+    border: solid;
+    border-width: 2px;
+    padding-left: 5vi;
 padding-right: 5vi;
 padding-top: 1vi;
 padding-bottom: 1vi;
@@ -74,10 +88,11 @@ margin-left: 1px;
 
 }
 .contactus{
-    box-shadow: 0 0 30px black;
-    background-image: linear-gradient(to bottom right, blue, rgb(0, 191, 255));
-    margin-right: -15px;
-    border: none;
+
+    background-color: #0d0ac7;
+border-width:1px;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+    border: solid;
     color: white;
 padding-top: 2vh;
 padding-bottom: 2vh;
@@ -95,7 +110,7 @@ padding-left: 2vw;
     border: none;
     background-color: white;
     padding-right: 5vw;
-    font-size: larger;
+    font-size: 25px;
     padding-bottom: 1vh;
     color: black;
    
@@ -106,7 +121,7 @@ padding-left: 2vw;
     border: none;
     background-color: white;
     padding-right: 5vw;
-    font-size: larger;
+    font-size: 25px;
     padding-bottom: 2vh;
     color: black;
 
@@ -118,19 +133,20 @@ padding-left: 2vw;
     border: none;
     background-color: white;
     padding-right: 15w;
-    font-size: larger;
+
     padding-bottom: 1vh;
     color: black;
+    font-size: 25px;
 
 }
 .buttons_menu4{
-    font-size: larger;
     width: 22%;
     border: none;
     background-color: white;
 color: black;
     padding-right: 1vw;
     padding-bottom: 1vh;
+    font-size: 25px;
 }
 
 
@@ -140,8 +156,11 @@ color: black;
     border: none;
     background-color: white;
     padding-right: 15w;
-    font-size: larger;
+    font-size: 25px;
     padding-bottom: 1vh;
     
     color: red;
 }
+
+
+/* do the main photo change the color theme and make the main upper without a background */
