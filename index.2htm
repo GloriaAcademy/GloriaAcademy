@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    <link rel="stylesheet" href="styling/styles.css">
+<title>gloria Academy</title>
+
+      </head>
+     <body >  
+        <nav class="nav">
+             <button class="close_menu_icon" onclick="toggle_nav()"><ion-icon size="large" name="close-circle-outline"></ion-icon></button>
+            <br>
+             <br>
+          <a href="index.html"><button class="menu_buttons">Home</button></a>
+          <br>
+          <a href="aboutus.html"><button class="menu_buttons">About Us</button></a>
+          <br>
+          <a href="Education.html"><button class="menu_buttons">Education</button></a>
+        <br>
+          <a href="s.html"><button class="menu_buttons">Arbitration</button></a>
+          <br>
+          <a href="journal.html"><button class="menu_buttons">Journal</button></a>
+          <br>
+          <a href="contactus.html"><button class="menu_buttons">Contact Us</button></a>
+      
+        
+    </nav>
+        <button class="menu" type="button"onclick="toggle_nav()"><ion-icon name="menu" size="large"></ion-icon></button>
+        <img class="main_upper" src="photos/mainpagephotos/main upper.png"width="15%">
+            
+        <img class="main_photo" src="photos/mainpagephotos/main.png"width="100%" >
+     
+       <p><b>Gloria Academy</b> is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning (CALL), differentiated cooperative learning (CL), intercultural communication, and neuroscience-based cognitive Structures. You have probably heard of some popular digital multimodal composing (DMC), innovative, cooperative learning, and intercultural communication Structures including differentiated KUD, KWL, DMC, Paideia Seminars, Literature Circles, Targeted Doodling, Play Circles, Third Space, TSLC, Blogging-based DMC, WebQuest-based DMC, Online-Poster-based DMC, Wiki-based DMC, and Neuroscience-based information processing. Gloria Structures, and many more, are now utilized world-wide in all academic subject areas to boost student innovation, creativity, and learning. Gloria Structures produce innovative outcomes. Teachers, schools, and institutions now use Gloria Structures to increase academic achievement and workplace job opportunities, improve critical thinking skills, boost self-esteem, create a healthy classroom climate, decrease discipline problems, and promote learners' intercultural communication skills and character development.</p>
+        <a href="contactus.html"
+       button type="button"><img src="photos/other/contactuspbut.png" class="contactbutton"width="90%"height="55" ></button>
+       <center>
+      </a>
+<img src="photos/mainpagephotos/courses.png"width="40%"height="230" class="courses_workshops">
+        <a href="courses.html" button  type="button" class="allcourses">Courses</button></a>
+         <img src="photos/mainpagephotos/workshops.png"width="40%"height="230" class="courses_workshops" >
+      <a  class="workshops" href="workshops.html" button  type="button">workshops</button>
+      </a>
+       </center>
+       <center class="followus">
+        <h6 >Follow Us</h6>
+      <nav>
+        <a class="facebook" href="https://www.instagram.com/gloria.academy/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a clas="facebook" href="https://www.facebook.com/profile.php?id=100069719780401"><ion-icon name="logo-facebook"></ion-icon></a>
+    
+    </nav>
+    </center>
+           <script>function toggle_nav() {
+        document.body.classList.toggle("nav-open");
+        
+    }</script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+         </body>
+</html>
