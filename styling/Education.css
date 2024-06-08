@@ -26,14 +26,14 @@ p{
     color: purple;
         padding-left: 3%;
         border: none;
-        font-size: 20px;
+        font-size: 0px;
         background-color: white;
     }
     .DRS_text_otherr{
         color: white;
             padding-left: 3%;
             border: none;
-            font-size: 20px;
+            font-size: 0px;
             background-color: white;
         }
     
@@ -106,14 +106,16 @@ font-size: 20px;
         background-color: white;
     }
 .Edubutton{
-    margin-left: 20px;
    background-color: #0d0ac7;
-   box-shadow: 0 0 40px black;
+   box-shadow: 0 0 20px black;
    border: none;
    color: white;
    padding: 2%;
    font-size: 20px;
    border-radius: 7px;
+   margin-left: 20px;
+   margin-bottom: 1vh;
+
 }
 
 .Education_porgrams{

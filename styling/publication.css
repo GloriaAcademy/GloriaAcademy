@@ -1,0 +1,138 @@
+.mainuppermenbeblsharjee{
+    margin-left: 2vw;
+    margin-top: 5px;
+    margin-right: 7.9vw;
+    box-shadow: 0 0 30px black;
+}
+
+.contactusmenbeblsharjee{
+
+    background-color: #0d0ac7;
+border-width:1px;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+    border: solid;
+    color: white;
+padding-top: 2vh;
+padding-bottom: 2vh;
+padding-right: 2vw;
+padding-left: 2vw;
+   margin-left: 21vw;
+    /* margin-bottom: 7%;
+    margin-top: 2%; */ 
+    border-radius: 7px;
+ box-shadow: 0 0 30px black;  margin-right: -15px;
+   
+}
+
+.cover {
+
+    margin-left: 5vw;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+   
+
+}
+
+.issues {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    margin-left: 9vw;
+    margin-top: 2vh;
+}
+.selected_issues {
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.volumes {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    padding-left: 22px;
+}
+.selected_volumes{
+    color: rgb(26, 200, 26);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    padding-left: 11vw; 
+    padding-top: 0.5vh;
+    
+
+
+}
+.test {
+    top: 35vh;
+   position: relative;
+   left: 60%;
+   bottom: 20%;
+   font-size: 50px;
+   
+
+}
+#pdf   {
+    position: absolute;
+    top: 130px;
+    left: 47vw;
+    height: 600px;
+    width: 50%;
+   border:solid;
+}
+
+.pdfsharjee #pdf {
+    top: 0;
+    height: 0px;
+    width: 0px;
+}
+
+
+.Articlesmenbeblsharjee {
+text-decoration-line: none;
+    margin-left: 10vw;
+    max-width: 47vw;
+    color: blueviolet;
+    background-color: transparent;
+    border: none;
+    cursor:alias;
+    padding-bottom: 10px;
+    padding-right: 1px;
+
+}
+
+
+.rowmen{
+    min-height: 10vh;
+    min-width: 50vw;
+}
+
+
+
+.Articles {
+
+    background-color: blue;
+    font-size: larger;
+    color: white;
+    border-color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 3%;
+   margin-left: 0.25vw;
+   padding-right: 3%;
+   border-radius: 10px;
+   
+
+}
+
+h2 {
+    margin-left: 50vw;
+    font-size: larger;
+}

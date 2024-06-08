@@ -1,9 +1,10 @@
 .links{
       text-decoration: none;
     color: #130573;
-    font-size: 12px;
-    border: none;
-padding-left: 4vw;
+    font-size: 11px;
+    border: none;  
+    padding-left: 4vw;
+    margin-bottom: 10px;
     background-color: white;
     font-family: "Arial", Helvetica, Arial, sans-serif;
   

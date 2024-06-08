@@ -1,0 +1,15 @@
+.backbutton{
+
+    background-color: #0d0ac7;
+border-width:1px;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+    border: solid;
+    color: white;
+padding-top: 2vh;
+padding-bottom: 2vh;
+    /* margin-bottom: 7%;
+    margin-top: 2%; */ 
+    border-radius: 7px;
+ box-shadow: 0 0 30px black;  margin-right: -15px;
+   
+}

@@ -23,26 +23,11 @@ p{
 
 
 
-/* .menu_buttons{
-    background-color: #2e1aaf;
-    border: none;
-    margin: 10px;
-    color: white;
-  
-} */
-
 .contactbutton{
     margin: 30px;
 }
 
 
-.main_upper{
-   margin-left: 30vw;
-   position: absolute;
-   border-style: solid;
-   border-color: white;
-   padding: none;
-}
 
 .paymentbutton{
     border:none;
@@ -122,9 +107,6 @@ padding-bottom: 5vh;
 .style{
     position: fixed;
 }
-.style{
-    position: fixed;
-}
 
 .body{
     background-color:white;
@@ -142,8 +124,8 @@ padding-bottom: 5vh;
     color: white;
     font-weight: bolder;
     box-shadow: 0 0 40px rgb(10, 72, 66);
-background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
-/* background-color: #0d0ac7; */
+    background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
+    /* background-color: #0d0ac7; */
 }
 
 .contactbutton{
