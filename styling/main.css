@@ -106,22 +106,22 @@ padding-left: 2vw;
 }
 .buttons_menu{
     padding-top: 1vh;
-    width: 22%;
+    width: 17vw;
     border: none;
     background-color: white;
     padding-right: 5vw;
-    font-size: 25px;
+    font-size: 3max;
     padding-bottom: 1vh;
     color: black;
    
 }
 .buttons_menu2{
 
-    width: 22%;
+    width: 17vw;
     border: none;
     background-color: white;
     padding-right: 5vw;
-    font-size: 25px;
+    font-size: 3max;
     padding-bottom: 2vh;
     color: black;
 
@@ -129,34 +129,34 @@ padding-left: 2vw;
 }
 .buttons_menu3{
 
-    width: 22%;
+    width: 17vw;
     border: none;
     background-color: white;
     padding-right: 15w;
 
     padding-bottom: 1vh;
     color: black;
-    font-size: 25px;
+    font-size: 3max;
 
 }
 .buttons_menu4{
-    width: 22%;
+    width: 17vw;
     border: none;
     background-color: white;
 color: black;
     padding-right: 1vw;
     padding-bottom: 1vh;
-    font-size: 25px;
+    font-size: 3max;
 }
 
 
 .buttonsame_menu{
-    width: 22%;
+    width: 17vw;
     padding-top: 1vh;
     border: none;
     background-color: white;
     padding-right: 15w;
-    font-size: 25px;
+    font-size: 3max;
     padding-bottom: 1vh;
     
     color: red;
