@@ -13,3 +13,7 @@ padding-bottom: 2vh;
  box-shadow: 0 0 30px black;  margin-right: -15px;
    
 }
+#articles {
+    width: 100%;
+    height: 500vh;
+}
