@@ -25,7 +25,8 @@ padding-left: 2vw;
 }
 
 .cover {
-
+    display: grid;
+    
     margin-left: 5vw;
     box-shadow: 0 0 30px black;  margin-right: -15px;
    
@@ -64,8 +65,8 @@ padding-left: 2vw;
     font-size: 40px;
     border: none;
     background-color: transparent;
-    padding-left: 11vw; 
-    padding-top: 0.5vh;
+    padding-left: 7vw; 
+    padding-top: 1vh;
     
 
 
@@ -81,8 +82,8 @@ padding-left: 2vw;
 }
 #pdf   {
     position: absolute;
-    top: 130px;
-    left: 47vw;
+
+    left: 10vw;
     height: 600px;
     width: 50%;
    border:solid;
@@ -96,15 +97,17 @@ padding-left: 2vw;
 
 
 .Articlesmenbeblsharjee {
-text-decoration-line: none;
-    margin-left: 10vw;
-    max-width: 47vw;
-    color: blueviolet;
+    font-size: 1.27vmax;
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    text-decoration-line: none;
+    margin-right: 5vw;
+    max-width: 55vw;
+    color: white;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding-bottom: 10px;
-    padding-right: 1px;
+    padding-right: 5px;
 
 }
 
@@ -132,12 +135,14 @@ text-decoration-line: none;
 
 }
 
-h2 {
+.h22 {
     margin-left: 35vw;
-    font-size: larger;
+    font-size: large;
       color: rgb(184, 0, 190);
       font-weight: 700;
+      text-decoration-line: none;
       cursor: pointer;
+
 }
 
 h4 {
