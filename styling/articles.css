@@ -13,7 +13,24 @@ padding-bottom: 2vh;
  box-shadow: 0 0 30px black;  margin-right: -15px;
    
 }
-#articles {
-    width: 100%;
-    height: 500vh;
+
+.button {
+    height: 9vmax;
+    width: 60vmax;
+    margin-bottom: 10px;
+   text-align: start;
+   justify-content:left;
+   padding-right: 3vmax;
+   padding-bottom: 2vmax;
+   border-radius: 10px;
+   margin-left: 7vmax;
+    background-color: rgb(72, 72, 248);
+   border-color: black;
+   border-width: 2px;
 }
+
+#articles {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+  }
