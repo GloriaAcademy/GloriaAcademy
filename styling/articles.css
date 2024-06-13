@@ -34,6 +34,11 @@ padding-bottom: 2vh;
     height: 90vmax;
     display: flex;
   }
+#articles1 {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+  }
 #articlesmenbeblsharjee {
     margin-left: 7vw;
         height: 500px;
