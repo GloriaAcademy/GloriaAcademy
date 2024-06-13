@@ -133,6 +133,16 @@ text-decoration-line: none;
 }
 
 h2 {
-    margin-left: 50vw;
+    margin-left: 35vw;
     font-size: larger;
+      color: rgb(184, 0, 190);
+      font-weight: 700;
+      cursor: pointer;
+}
+
+h4 {
+    font-size: larger;
+
+      font-weight: 700;
+      margin-left: 10vw;
 }
