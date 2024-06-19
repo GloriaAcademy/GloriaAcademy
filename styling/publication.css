@@ -26,7 +26,8 @@ padding-left: 2vw;
 
 .cover {
     display: grid;
-    
+    height: 40vmax;
+    width: 30vmax;
     margin-left: 5vw;
     box-shadow: 0 0 30px black;  margin-right: -15px;
    
@@ -62,7 +63,7 @@ padding-left: 2vw;
 .selected_volumes{
     color: rgb(26, 200, 26);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 5vmax;
     border: none;
     background-color: transparent;
     padding-left: 7vw; 
@@ -136,12 +137,13 @@ padding-left: 2vw;
 }
 
 .h22 {
-    margin-left: 35vw;
+    margin-left: 30vw;
     font-size: large;
       color: rgb(184, 0, 190);
       font-weight: 700;
       text-decoration-line: none;
       cursor: pointer;
+
 
 }
 
