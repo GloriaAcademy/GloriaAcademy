@@ -6,8 +6,8 @@
 
 .call_us{
     box-shadow: 0 0 40px rgb(10, 72, 66);
-    width: 90vw;
-     height: 70px;
+     width: 75vmax;
+     height: 9vmax;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,8 @@
 }
 .call_us_text{
    
-    width: 79vw;
+       width: 50vmax;
+
 
     display: flex;
     align-items: center;
@@ -28,8 +29,8 @@
 
 
 .email{
-    width: 90vw;
-     height: 70px;
+   width: 75vmax;
+     height: 9vmax;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,8 @@
 }
 .email_text{
     color: black;
-    width: 79vw;
+      width: 50vmax;
+font-size: 2vmax;
 
     display: flex;
     align-items: center;
