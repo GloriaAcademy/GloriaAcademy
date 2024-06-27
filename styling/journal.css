@@ -97,11 +97,28 @@ b {
 .buttonman{
   font-size: 2vmax;
   padding: 10px 20px 10px  20px;
-  margin: 1vw;
-  width: 70vmax;
+  margin-top: 3vw;
+  width: 45vmax;
   border: solid;
   border-radius: 2vmax;
   background-color: #0d0ac7;
   color: white;
   box-shadow: 0 0 30px black;
+}
+
+@media only  screen and (min-width: 500px ) {
+
+.buttonman{
+font-size: 3vmax;
+padding: 30px 20px 30px  20px;
+margin: 1vw;
+width: 70vmax;
+border: solid;
+border-radius: 2vmax;
+background-color: #0d0ac7;
+color: white;
+box-shadow: 0 0 30px black;
+}
+
+
 }
