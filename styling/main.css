@@ -14,7 +14,7 @@ transition: all 0.35s ease-in-out; */
 
 .main{
     image-resolution:initial;
-    height: 50vh;
+    height: 25vmax;
     width: 100%;
 
 
@@ -72,15 +72,15 @@ margin-bottom: 200vh;
 
 }
 .submit{
-
-    background-color: hsl(241, 90%, 41%);   
-    box-shadow: 0 0 30px black;
-    font-size: 20px;
+    background-color: transparent;
+    /* background-color: hsl(241, 90%, 41%);    */
+    /* box-shadow: 0 0 30px black; */
+    font-size: 1vmax;
     color: #ffffff;
     border: solid;
     border-width: 2px;
     padding-left: 5vi;
-padding-right: 5vi;
+padding-right: 0.5vmax;
 padding-top: 1vi;
 padding-bottom: 1vi;
 border-radius:5px ;
@@ -90,7 +90,7 @@ margin-left: 1px;
 .contactus{
 
     background-color: #0d0ac7;
-border-width:1px;
+border-width:0.1px;
     box-shadow: 0 0 30px black;  margin-right: -15px;
     border: solid;
     color: white;
@@ -98,7 +98,7 @@ padding-top: 2vh;
 padding-bottom: 2vh;
 padding-right: 2vw;
 padding-left: 2vw;
-   margin-left: 20vw;
+   margin-left: 2vmax;
     /* margin-bottom: 7%;
     margin-top: 2%; */ 
     border-radius: 7px;
@@ -106,22 +106,26 @@ padding-left: 2vw;
 }
 .buttons_menu{
     padding-top: 1vh;
-    width: 17vw;
+    width: 5vmax;
     border: none;
+    margin-right: 10vw;
     background-color: white;
-    padding-right: 5vw;
-    font-size: 3vmax;
+    padding-right: 2vw;
+    font-size: 2vmax;
     padding-bottom: 1vh;
+    margin-left: -3vw;
     color: black;
    
 }
 .buttons_menu2{
 
-    width: 17vw;
+    width: 5vmax;
     border: none;
     background-color: white;
-    padding-right: 5vw;
-    font-size: 3vmax;
+    padding-right: 3vmax;
+    font-size: 2vmax;
+    padding-left: 5vw;
+    margin-right: 14vw;
     padding-bottom: 2vh;
     color: black;
 
@@ -129,38 +133,144 @@ padding-left: 2vw;
 }
 .buttons_menu3{
 
-    width: 17vw;
+    width:5vmax;
     border: none;
     background-color: white;
-    padding-right: 15w;
-
+    margin-right: 10vw;
+    padding-left: 4vw;
     padding-bottom: 1vh;
     color: black;
-    font-size: 3vmax;
+    font-size: 2vmax;
 
 }
 .buttons_menu4{
-    width: 17vw;
+    width: 5vmax;
     border: none;
     background-color: white;
 color: black;
-    padding-right: 1vw;
+
     padding-bottom: 1vh;
-    font-size: 3vmax;
+    padding-left: 4vw;
+    margin-right: 10vw;
+    font-size: 2vmax;
 }
 
 
 .buttonsame_menu{
-    width: 17vw;
+    width: 2vmax;
     padding-top: 1vh;
     border: none;
     background-color: white;
-    padding-right: 15w;
-    font-size: 3vmax;
+    padding-right: 1vmax;
+    margin-right: 7vw;
+    font-size: 2vmax;
+    margin-left: 5vw;
+    margin-right: 15vw;
     padding-bottom: 1vh;
+    
     
     color: red;
 }
 
-
+.table {
+    max-width: 50px;
+}
 /* do the main photo change the color theme and make the main upper without a background */
+
+
+@media only  screen and (min-width: 500px ) {
+
+    .submit{
+    
+        background-color: hsl(241, 90%, 41%);   
+        box-shadow: 0 0 30px black;
+        font-size: 20px;
+        color: #ffffff;
+        border: solid;
+        border-width: 2px;
+        padding-left: 5vi;
+    padding-right: 5vi;
+    padding-top: 1vi;
+    padding-bottom: 1vi;
+    border-radius:5px ;
+    margin-left: 1px;
+    
+    }
+    .contactus{
+    
+        background-color: #0d0ac7;
+    border-width:1px;
+        box-shadow: 0 0 30px black;  margin-right: -15px;
+        border: solid;
+        color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+       margin-left: 20vw;
+        /* margin-bottom: 7%;
+        margin-top: 2%; */ 
+        border-radius: 7px;
+    
+    }
+    .buttons_menu{
+        padding-top: 1vh;
+        width: 14vw;
+        border: none;
+        background-color: white;
+        padding-right: 5vw;
+        font-size: 3vmax;
+        padding-bottom: 1vh;
+        color: black;
+       
+    }
+    .buttons_menu2{
+    
+        width: 14vw;
+        border: none;
+        background-color: white;
+        padding-right: 5vw;
+        font-size: 3vmax;
+        padding-bottom: 2vh;
+        color: black;
+    
+    
+    }
+    .buttons_menu3{
+    
+        width: 14vw;
+        border: none;
+        background-color: white;
+        margin-right: 1vw;
+    
+        padding-bottom: 1vh;
+        color: black;
+        font-size: 3vmax;
+    
+    }
+    .buttons_menu4{
+        width: 14vw;
+        border: none;
+        background-color: white;
+    color: black;
+        padding-right: 1vw;
+        padding-bottom: 1vh;
+        font-size: 3vmax;
+    }
+    
+    
+    .buttonsame_menu{
+        width: 14vw;
+        padding-top: 1vh;
+        border: none;
+        background-color: white;
+        margin-right: 3vw;
+        font-size: 3vmax;
+        padding-bottom: 1vh;
+        
+        color: red;
+    }
+    
+    
+}
+/* use this method to make all the designs for the phone  */
