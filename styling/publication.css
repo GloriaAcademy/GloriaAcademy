@@ -6,6 +6,7 @@
 
 .contactusmenbeblsharjee{
 font-size:1.5vmax;
+cursor: pointer;
     background-color: #0d0ac7;
     border-width:1px;
     box-shadow: 0 0 30px black;  margin-right: -15px;
@@ -34,7 +35,15 @@ margin-left: 5vw;
    
 
 }
+.coverlabeblsharjee {
+    display: grid;
+    height: 90vh;
+    width: 79%;
+    margin-left: -27vw;
+    box-shadow: 0 0 30px black;  margin-right: -15vw;
+   
 
+}
 .issues {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
@@ -69,9 +78,15 @@ margin-left: 5vw;
     background-color: transparent;
     padding-left: 7vw; 
     padding-top: 1vh;
-    
-
-
+}
+.selected_volumeslabeblsharjee{
+    color: rgb(26, 200, 26);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vmax;
+    border: none;
+    background-color: transparent;
+ cursor: pointer;
+    padding-top: 1vh;
 }
 .test {
     top: 35vh;
@@ -99,17 +114,17 @@ margin-left: 5vw;
 
 
 .Articlesmenbeblsharjee {
-    font-size: 1.27vmax;
-    margin-top: 0.5vh;
-    margin-left: 1vw;
+    font-size: 0vmax;
+    margin-top: 0vh;
+    margin-left: 0vw;
     text-decoration-line: none;
-    margin-right: 5vw;
-    max-width: 55vw;
+    margin-right: 0vw;
+    max-width: 0vw;
     color: white;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding-right: 5px;
+    padding-right:0px;
 
 }
 
@@ -155,7 +170,19 @@ h4 {
       font-weight: 700;
       margin-left: 10vw;
 }
-
+.Articleslalphone{
+    font-size: 2vmax;
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    text-decoration-line: none;
+    margin-right: 5vw;
+    max-width: 55vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 5px;
+}
 
 @media only  screen and (min-width: 700px ) {
     .mainuppermenbeblsharjee{
@@ -188,7 +215,7 @@ h4 {
         display: grid;
         height: 40vmax;
         width: 30vmax;
-        margin-left: 5vw;
+        margin-left: 1vw;
         box-shadow: 0 0 30px black;  margin-right: -15px;
        
     
@@ -313,8 +340,24 @@ h4 {
           font-weight: 700;
           margin-left: 10vw;
     }
+    .coverlabeblsharjee {
+        display: grid;
+        height: 0vh;
+        width: 0%;
+        margin-left: 0vw;
+        box-shadow: 0 0 30px black;  margin-right: -15vw;
+       
     
+    }
 
-
+    .selected_volumeslabeblsharjee{
+        color: rgb(26, 200, 26);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0vmax;
+        border: none;
+        background-color: transparent;
+        padding-left: 7vw; 
+        padding-top: 1vh;
+    }
 
 }
