@@ -71,7 +71,7 @@ margin-left: 5vw;
     padding-left: 22px;
 }
 .selected_volumes{
-    color: rgb(26, 200, 26);
+    color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0vmax;
     border: none;
@@ -80,7 +80,7 @@ margin-left: 5vw;
     padding-top: 1vh;
 }
 .selected_volumeslabeblsharjee{
-    color: rgb(26, 200, 26);
+     color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
     font-size: 10vmax;
     border: none;
@@ -248,7 +248,7 @@ h4 {
         padding-left: 22px;
     }
     .selected_volumes{
-        color: rgb(26, 200, 26);
+         color: blueviolet;
         font-family: 'Courier New', Courier, monospace;
         font-size: 5vmax;
         border: none;
