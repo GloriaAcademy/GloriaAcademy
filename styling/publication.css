@@ -248,12 +248,13 @@ h4 {
         padding-left: 22px;
     }
     .selected_volumes{
-         color: blueviolet;
+        color: blueviolet;
+        font-weight: 600;
         font-family: 'Courier New', Courier, monospace;
         font-size: 5vmax;
         border: none;
         background-color: transparent;
-        padding-left: 7vw; 
+        padding-left: 5vw; 
         padding-top: 1vh;
         
     
