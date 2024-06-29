@@ -55,12 +55,12 @@ p{
     color: #000;
     font-size: 2.5vmax;
    
-    padding-left: 4vw; 
+    padding-left: 3.5vw; 
 }
 .samecourses{
     text-decoration: none;
     color: #2136da;
-     font-size: 2.5vmax;
+    font-size: 2.5vmax;
    
     padding-left: 4vw; 
 }
@@ -113,7 +113,6 @@ font-size: 20px;
    padding: 2%;
    font-size: 20px;
    border-radius: 7px;
-   margin-left: 20px;
    margin-bottom: 1vh;
 
 }
@@ -125,4 +124,21 @@ font-size: 20px;
     padding: 2%;
     margin: 2%;
     border-radius: 10px;
+}
+
+@media only  screen and (min-width: 500px ) {
+
+    .Edubutton{
+        background-color: #0d0ac7;
+        box-shadow: 0 0 20px black;
+        border: none;
+        color: white;
+        padding: 2%;
+        font-size: 20px;
+        border-radius: 7px;
+        margin-left: 20px;
+        margin-bottom: 1vh;
+     
+     }
+
 }
