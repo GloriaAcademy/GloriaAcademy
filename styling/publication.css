@@ -53,6 +53,15 @@ margin-left: 5vw;
      margin-left: 5vmax;
     margin-top: 2vh;
 }
+    .issue2 {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        border: none;
+        background-color: transparent;
+        margin-left: 5vmax;
+        margin-top: 2vh;
+    }
 .selected_issues {
     color: palevioletred;
     font-family: 'Courier New', Courier, monospace;
