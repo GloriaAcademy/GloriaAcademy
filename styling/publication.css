@@ -53,26 +53,45 @@ margin-left: 5vw;
      margin-left: 5vmax;
     margin-top: 2vh;
 }
-    .issue2 {
-        color: blue;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: medium;
-        border: none;
-        background-color: transparent;
-        margin-left: 2vmax;
-        margin-top: 2vh;
-        cursor: pointer;
-    }
-.selected_issues {
-    color: palevioletred;
+.selected_issues_for_phone{
+    color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     border: none;
     background-color: transparent;
-    padding-left: 10px
-    cursor: pointer;;
+    padding-left: 10px;
+    cursor: pointer;
 }
-
+.issue2_for_phone {
+    color:palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    /* margin-left: 2vmax;
+    margin-top: 2vh; */
+    cursor: pointer;
+}
+.selected_issues {
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.issue2 {
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    margin-left: 2vmax;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+  
 .volumes {
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -249,7 +268,7 @@ h4 {
     .selected_issues {
         color: palevioletred;
         font-family: 'Courier New', Courier, monospace;
-        font-size: medium;
+        font-size:0px;
         border: none;
         background-color: transparent;
         padding-left: 10px;
@@ -376,5 +395,58 @@ h4 {
         padding-left: 7vw; 
         padding-top: 1vh;
     }
+
+    /* for phone */
+    .issue2_for_phone {
+        color:rosybrown;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        border: none;
+        background-color: transparent;
+        margin-left: 2vmax;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+  /* for desktop */
+  .selected_issues {
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.issue2 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    margin-left: 2vmax;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+/* for phone */
+.issue2_for_phone {
+    color:transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    /* margin-left: 2vmax;
+    margin-top: 2vh; */
+    cursor: pointer;
+}
+.selected_issues_for_phone{
+color: transparent;
+font-family: 'Courier New', Courier, monospace;
+font-size: 0;
+border: none;
+background-color: transparent;
+padding-left: 10px;
+cursor: pointer;
+}
 
 }
