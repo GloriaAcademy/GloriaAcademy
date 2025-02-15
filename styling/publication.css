@@ -219,6 +219,34 @@ h4 {
     padding-right: 5px;
 }
 
+.volumes_artitcles_beblsharjee {
+  
+    color: white;
+border-radius: 20px;
+    font-size: 10vmax;
+    border: none;
+    background-color: blue;
+ cursor: pointer;
+    padding-top: 1vh;
+    padding-left: 5vw;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    margin-bottom: 10vh;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  FOR THE  LAPTOP SETTINGS */
 @media only  screen and (min-width: 700px ) {
     .mainuppermenbeblsharjee{
         margin-left: 2vw;
