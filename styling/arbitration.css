@@ -7,8 +7,8 @@
 }
 .container{
     display: flex;
-    height: 20vmax;
-    width: 40vmax;
+    height: 20vh;
+    width: 40vw;
     align-items: center;
     justify-content: center;
     align-items: center;
