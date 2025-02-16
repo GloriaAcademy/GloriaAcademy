@@ -113,20 +113,20 @@ padding-bottom: 5vh;
 }
 
 
+
 .menu_buttons{
     margin-top: 15px;
     margin-left: 7vw;
     margin-bottom: 5vh;
-    width: 20vmax;
-    height: 10vmax;
+    width: 20vw;
+    height: 10vh;
     border-radius: 1vmax;
     border: none;
-    font-size: 3vmax;
+    font-size: 3vi;
     color: white;
     font-weight: bolder;
     box-shadow: 0 0 40px rgb(10, 72, 66);
     background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
-    /* background-color: #0d0ac7; */
 }
 
 .contactbutton{
