@@ -1,0 +1,114 @@
+.about_us_title{
+    margin-bottom: 50px;
+    font-size: 40px;
+    color:white;
+    border: none;
+    background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255));
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.pa{
+    color: white;
+    font-size: 0px;
+}
+.pan{
+    color: white;
+    font-size: 0px;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+}
+h2{
+    color: #0d0ac7;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+.Drs{
+    padding-left: 4vh;
+padding-right: 2vh;
+padding-bottom: 4vh;
+   
+}
+
+h4{
+    font-size: 25px;
+    line-height: 26px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 0px;
+    font-weight: lighter;
+    color: #161922;
+}
+.aboutusmainphoto{
+    max-width: 100%;
+    padding-left: 0%;
+    border: none;
+    margin: 0%;
+}
+
+.Lubna_text_other{
+    color: white;
+    padding-left: 3%;
+    border: none;
+    background-color: white;
+}
+.Lubna_text{
+    color: purple;
+        padding-left: 3%;
+        border: none;
+        background-color: white;
+    }
+.DRS_text{
+color: purple;
+    padding-left: 3%;
+    border: none;
+    background-color: white;
+}
+.DRS_text_other{
+    color: white;
+        padding-left: 3%;
+        border: none;
+        background-color: white;
+    }
+
+
+.toggle_info .DRS_text{
+color: white;
+}
+.toggle_info .DRS_text_other{
+    color: purple;
+}
+.toggle_info .pa{
+    color: black;
+    font-size: 20px;
+}
+
+.toggle_info_loubna .Lubna_text{
+    color: white;
+    }
+    .toggle_info_loubna .Lubna_text_other{
+        color: purple;
+    }
+    .toggle_info_loubna .pan{
+        color: black;
+        font-size: 20px;
+    }
+    

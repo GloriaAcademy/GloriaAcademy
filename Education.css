@@ -1,0 +1,144 @@
+.Programs{
+text-decoration: none;
+color: white;
+font-size: 20px;
+background: rgb(64, 85, 224);
+padding: 9px;
+border-radius: 10px;
+margin-left: 16px;
+}
+
+h1{
+    padding-left: 10px;
+}
+p{
+    padding-left: 17px;
+   padding: 25px;
+
+}
+
+.pan{
+    font-size: 0px;
+}
+
+
+.DRS_textt{
+    color: purple;
+        padding-left: 3%;
+        border: none;
+        font-size: 0px;
+        background-color: white;
+    }
+    .DRS_text_otherr{
+        color: white;
+            padding-left: 3%;
+            border: none;
+            font-size: 0px;
+            background-color: white;
+        }
+    
+.toggle_info .DRS_text{
+    color: white;
+    }
+    .toggle_info .DRS_text_other{
+        color: purple;
+    }
+    .toggle_info .pan{
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+.courses{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5vmax;
+   
+    padding-left: 3.5vw; 
+}
+.samecourses{
+    text-decoration: none;
+    color: #2136da;
+    font-size: 2.5vmax;
+   
+    padding-left: 4vw; 
+}
+.allcourses{
+    text-decoration: none;
+    color: #2136da;
+    font-size: 20px;
+   
+
+}
+
+.toggle_Registration .DRS_textt{
+    color: white;
+    }
+    .toggle_Registration .DRS_text_otherr{
+        color: purple;
+    }
+    .toggle_Registration .pa{
+        color: black;
+        font-size: 20px;
+    }
+
+
+.Lubna_text{
+    color: purple;
+font-size: 20px;
+        padding-left: 3%;
+        border: none;
+        background-color: white;
+    }
+.DRS_text{
+color: purple;
+font-size: 20px;
+    padding-left: 3%;
+    border: none;
+    background-color: white;
+}
+.DRS_text_other{
+    color: white;
+    font-size: 20px;
+        padding-left: 3%;
+        border: none;
+        background-color: white;
+    }
+.Edubutton{
+   background-color: #0d0ac7;
+   box-shadow: 0 0 20px black;
+   border: none;
+   color: white;
+   padding: 2%;
+   font-size: 20px;
+   border-radius: 7px;
+   margin-bottom: 1vh;
+
+}
+
+.Education_porgrams{
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+@media only  screen and (min-width: 500px ) {
+
+    .Edubutton{
+        background-color: #0d0ac7;
+        box-shadow: 0 0 20px black;
+        border: none;
+        color: white;
+        padding: 2%;
+        font-size: 20px;
+        border-radius: 7px;
+        margin-left: 20px;
+        margin-bottom: 1vh;
+     
+     }
+
+}

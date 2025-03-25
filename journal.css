@@ -1,0 +1,124 @@
+.links{
+      text-decoration: none;
+    color: #130573;
+    font-size: 11px;
+    border: none;  
+    padding-left: 4vw;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+  
+
+}
+.links1{
+    text-decoration: none;
+  color: #130573;
+  font-size: 12px;
+  border: none;
+  padding-left: 3vw;
+padding-right: 0vw;
+  background-color: white;
+  font-family: "Arial", Helvetica, Arial, sans-serif;
+
+}
+
+.links3{
+    text-decoration: none;
+  color: #130573;
+  font-size: 12px;
+  border: none;
+padding-left: 5vw;
+
+  background-color: white;
+  font-family: "Arial", Helvetica, Arial, sans-serif;
+
+}
+
+h2{
+     color: black;
+    font-size: 30px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    padding-left: 5vw;
+}
+h3{
+    color: #130573;
+   font-size: 30px;
+   font-family: "Arial", Helvetica, Arial, sans-serif;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-weight: lighter;
+   padding-left: 20px;
+}
+.project_creators{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+p{
+    padding-left: 14px;
+    padding-bottom: 0vh;
+    font-size: 17px;
+    line-height: 22px;
+    margin-left: 20px;
+    color: #161922;
+    
+}
+b {
+    color: rgb(222, 130, 18);
+    font-size: 25px;
+    text-align: center;
+      letter-spacing: 0.3px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.Creative_Commons_license{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.CONDITIONSAME{
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  padding-right: 10px;
+}
+.CONDITION{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 5px;
+}
+.buttonman{
+  font-size: 2vmax;
+  padding: 10px 20px 10px  20px;
+  margin-top: 3vw;
+  width: 45vmax;
+  border: solid;
+  border-radius: 2vmax;
+  background-color: #0d0ac7;
+  color: white;
+  box-shadow: 0 0 30px black;
+}
+
+@media only  screen and (min-width: 500px ) {
+
+.buttonman{
+font-size: 3vmax;
+padding: 30px 20px 30px  20px;
+margin: 1vw;
+width: 70vmax;
+border: solid;
+border-radius: 2vmax;
+background-color: #0d0ac7;
+color: white;
+box-shadow: 0 0 30px black;
+}
+
+
+}

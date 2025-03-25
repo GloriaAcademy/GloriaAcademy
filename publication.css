@@ -1,0 +1,483 @@
+.mainuppermenbeblsharjee{
+    margin-left: 2vw;
+    margin-top: 5px;
+    box-shadow: 0 0 30px black;
+}
+
+.contactusmenbeblsharjee{
+font-size:1.5vmax;
+cursor: pointer;
+    background-color: #0d0ac7;
+    border-width:1px;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+    border: solid;
+    color: white;
+padding-top: 2vh;
+padding-bottom: 2vh;
+padding-right: 5vw;
+padding-left: 5vw;
+margin-left: 5vw;
+   margin-right: 30vmax;
+    /* margin-bottom: 7%;
+    margin-top: 2%; */ 
+    border-radius: 7px;
+ box-shadow: 0 0 30px black;  margin-right: -15px;
+   
+}
+
+.cover {
+    color: transparent;
+    display: grid;
+    height: 0vh;
+    width: 0vw;
+    margin-left: 0vw;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+   
+
+}
+.coverlabeblsharjee {
+    display: grid;
+    height: 90vh;
+    width: 79%;
+    margin-left: -27vw;
+    box-shadow: 0 0 30px black;  margin-right: -15vw;
+   
+
+}
+.issues {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+     margin-left: 5vmax;
+    margin-top: 2vh;
+}
+.selected_issues_for_phone{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.issue2_for_phone {
+    color:palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    /* margin-left: 2vmax;
+    margin-top: 2vh; */
+    cursor: pointer;
+}
+.selected_issues {
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.issue2 {
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    margin-left: 2vmax;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+  
+.volumes {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    padding-left: 22px;
+}
+.selected_volumes{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0vmax;
+    border: none;
+    background-color: transparent;
+    padding-left: 7vw; 
+    padding-top: 1vh;
+}
+.selected_volumeslabeblsharjee{
+     color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vmax;
+    border: none;
+    background-color: transparent;
+ cursor: pointer;
+    padding-top: 1vh;
+}
+.test {
+    top: 35vh;
+   position: relative;
+   left: 60%;
+   bottom: 20%;
+   font-size: 50px;
+   
+
+}
+#pdf   {
+    position: absolute;
+
+    left: 10vw;
+    height: 600px;
+    width: 50%;
+   border:solid;
+}
+#pdfexpress {
+    left: 300;
+    height: 600px;
+    width: 90vw;
+}
+
+.pdfsharjee #pdf {
+    top: 0;
+    height: 0px;
+    width: 0px;
+}
+
+
+.Articlesmenbeblsharjee {
+    font-size: 0vmax;
+    margin-top: 0vh;
+    margin-left: 0vw;
+    text-decoration-line: none;
+    margin-right: 0vw;
+    max-width: 0vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right:0px;
+
+}
+
+
+.rowmen{
+    min-height: 10vh;
+    min-width: 150vw;
+}
+
+
+
+.Articles {
+
+    background-color: blue;
+    font-size: 5vmax;
+    color: white;
+    border-color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 5%;
+   margin-left: -5vw;
+   padding-right: 3%;
+   border-radius: 10px;
+   min-width: 900px;
+   
+
+}
+
+.h22 {
+    margin-left: 7vw;
+    font-size: large;
+      color: rgb(184, 0, 190);
+      font-weight: 700;
+      text-decoration-line: none;
+      cursor: pointer;
+
+
+}
+
+h4 {
+    font-size: larger;
+
+      font-weight: 700;
+      margin-left: 10vw;
+}
+.Articleslalphone{
+    font-size: 2vmax;
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    text-decoration-line: none;
+    margin-right: 5vw;
+    max-width: 55vw;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.volumes_artitcles_beblsharjee {
+  
+    color: white;
+border-radius: 20px;
+    font-size: 10vmax;
+    border: none;
+    background-color: blue;
+ cursor: pointer;
+    padding-top: 1vh;
+    padding-left: 5vw;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    margin-bottom: 10vh;
+    
+
+}
+
+
+
+
+
+
+
+
+/* *************************** */
+/* *************************** */
+/* *************************** */
+/*  FOR THE  LAPTOP SETTINGS */
+/* *************************** */
+/* *************************** */
+/* *************************** */
+
+
+@media only  screen and (min-width: 700px ) {
+    .mainuppermenbeblsharjee{
+        margin-left: 2vw;
+        margin-top: 5px;
+        margin-right: 7.9vw;
+        box-shadow: 0 0 30px black;
+    }
+    
+    .contactusmenbeblsharjee{
+    
+        background-color: #0d0ac7;
+    border-width:1px;
+        box-shadow: 0 0 30px black;  margin-right: -15px;
+        border: solid;
+        color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+       margin-left: 21vw;
+        /* margin-bottom: 7%;
+        margin-top: 2%; */ 
+        border-radius: 7px;
+     box-shadow: 0 0 30px black;  margin-right: -15px;
+       
+    }
+    
+    .cover {
+        display: grid;
+        height: 40vmax;
+        width: 30vmax;
+        margin-left: 1vw;
+        box-shadow: 0 0 30px black;  margin-right: -15px;
+       
+    
+    }
+    
+    .issues {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        border: none;
+        background-color: transparent;
+        margin-left: 9vw;
+        margin-top: 2vh;
+    }
+    .selected_issues {
+        color: palevioletred;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:0px;
+        border: none;
+        background-color: transparent;
+        padding-left: 10px;
+    }
+    
+    .volumes {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        border: none;
+        background-color: transparent;
+        padding-left: 22px;
+    }
+    .selected_volumes{
+        color: blueviolet;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 5vmax;
+        border: none;
+        background-color: transparent;
+        padding-left: 5vw; 
+        padding-top: 1vh;
+        
+    
+    
+    }
+    .test {
+        top: 35vh;
+       position: relative;
+       left: 60%;
+       bottom: 20%;
+       font-size: 50px;
+       
+    
+    }
+    #pdf   {
+        position: absolute;
+    
+        left: 10vw;
+        height: 600px;
+        width: 50%;
+       border:solid;
+    }
+    
+    .pdfsharjee #pdf {
+        top: 0;
+        height: 0px;
+        width: 0px;
+    }
+    
+    
+    .Articlesmenbeblsharjee {
+        font-size: 1.27vmax;
+        margin-top: 0.5vh;
+        margin-left: 1vw;
+        text-decoration-line: none;
+        margin-right: 5vw;
+        max-width: 55vw;
+        color: white;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-right: 5px;
+    
+    }
+    
+    
+    .rowmen{
+        min-height: 10vh;
+        min-width: 50vw;
+    }
+    
+    
+    
+    .Articles {
+    
+        background-color: blue;
+        font-size: larger;
+        color: white;
+        border-color: white;
+       padding-top: 1%;
+       padding-bottom: 1%;
+       padding-left: 3%;
+       margin-left: 0.25vw;
+       padding-right: 3%;
+       border-radius: 10px;
+       
+    
+    }
+    
+    .h22 {
+        margin-left: 7vw;
+        font-size: large;
+          color: rgb(184, 0, 190);
+          font-weight: 700;
+          text-decoration-line: none;
+          cursor: pointer;
+    
+    
+    }
+    
+    h4 {
+        font-size: larger;
+    
+          font-weight: 700;
+          margin-left: 10vw;
+    }
+    .coverlabeblsharjee {
+        display: grid;
+        height: 0vh;
+        width: 0%;
+        margin-left: 0vw;
+        box-shadow: 0 0 30px black;  margin-right: -15vw;
+       
+    
+    }
+
+    .selected_volumeslabeblsharjee{
+        color: rgb(26, 200, 26);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0vmax;
+        border: none;
+        background-color: transparent;
+        padding-left: 7vw; 
+        padding-top: 1vh;
+    }
+
+    .issue2_for_phone {
+        color:rosybrown;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        border: none;
+        background-color: transparent;
+        margin-left: 2vmax;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+  .selected_issues {
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.issue2 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+    margin-left: 2vmax;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+
+.issue2_for_phone {
+    color:transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    /* margin-left: 2vmax;
+    margin-top: 2vh; */
+    cursor: pointer;
+}
+.selected_issues_for_phone{
+color: transparent;
+font-family: 'Courier New', Courier, monospace;
+font-size: 0;
+border: none;
+background-color: transparent;
+padding-left: 10px;
+cursor: pointer;
+}
+
+}

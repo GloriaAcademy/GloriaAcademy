@@ -1,0 +1,177 @@
+
+b {
+    color:#0d0ac7;
+    font-size: 25px;
+    text-align: center;
+      letter-spacing: 0.3px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+p{
+    max-width: 90%;
+    padding-bottom: 0vh;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #161922;
+}
+.search{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.contactbutton{
+    margin: 30px;
+}
+
+
+
+.paymentbutton{
+    border:none;
+    background-color: white;
+    padding-top: 10vh;
+padding-bottom: 5vh;
+
+}
+.main_photo{
+    padding-bottom: 5vh;
+}
+
+
+.courses_buttons{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2e1aaf;
+    border: none;
+    margin: 4%;
+}
+.allcourses {
+    top: 1560px;
+    right: 190px;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2e1aaf;
+    border: none;
+    margin: 4%;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.workshops{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2e1aaf;
+    border: none;
+    margin: 4%;
+    top: 2090px;
+    right: 190px;
+    position: absolute;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.courses_workshops{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-top: 10%;
+    padding-bottom: 35%;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.style{
+    position: fixed;
+}
+
+.body{
+    background-color:white;
+}
+
+
+.menu_buttons{
+    margin-top: 15px;
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 1vmax;
+    border: none;
+    font-size: 3vi;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0 0 40px rgb(10, 72, 66);
+    background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
+    /* background-color: #0d0ac7; */
+}
+
+.contactbutton{
+    font-size: 25px;
+    font-weight: bolder;
+   border: none;
+background-color: rgb(222, 130, 18);
+padding-left: 25%;
+padding-right: 25%;
+padding-top: 4%;
+padding-bottom: 5%;
+border-radius: 25px;
+color: white;
+text-decoration:none;
+}
+
+.Register_button{
+   background-color: red;
+   border: none;
+   padding: 15%;
+   color: white;
+   border-radius: 7px;
+   margin-top: 5vh;
+   margin-left: 7vw;
+}
+
+
+.button_nav{
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    padding: 2%;
+    margin: 3px;
+    box-shadow: 0 0 40px black;
+}
+
+.button_nav_same{
+    border: none;
+    border-radius: 7px;
+    background-color: green;
+    font-size: 15px;
+    color: white;
+    padding: 2%;
+    margin: 3px;
+    box-shadow: 0 0 40px black;
+}
