@@ -1,10 +1,10 @@
-.arb_courses{
-    padding-bottom: 30vh;
-}
+
+/* Box titles */
 .link{
     text-decoration: none;
     color: #000;
 }
+/* Box containers  */
 .container{
     display: flex;
     height: 20vh;
@@ -17,6 +17,7 @@
     padding-right: 10vw;
     margin-right: 5px;
 }
+/* links for the courses after you click the boxes */
 .course_links{
     text-decoration: none;
     color: #000;
@@ -28,13 +29,31 @@
     max-width: 300px;
 }
 
-.p{
-    padding-left: 3vw;
-}
-
 h6{
     color: purple;
     font-size: 30px;
     padding-left: 5vw;
 }
 
+/* buttons for swapping pages */
+.button_nav{
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    padding: 2%;
+    margin: 3px;
+    box-shadow: 0 0 40px black;
+}
+
+.button_nav_same{
+    border: none;
+    border-radius: 7px;
+    background-color: green;
+    font-size: 15px;
+    color: white;
+    padding: 2%;
+    margin: 3px;
+    box-shadow: 0 0 40px black;
+}

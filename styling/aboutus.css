@@ -1,3 +1,16 @@
+/* background */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+/* About us photo */
 .about_us_title{
     margin-bottom: 50px;
     font-size: 40px;
@@ -10,37 +23,37 @@
     padding-right: 40%;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+
+/* Gloria Academy in blue  */
+b {
+    color:#0d0ac7;
+    font-size: 25px;
+    text-align: center;
+      letter-spacing: 0.3px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-weight: 700;
 
 }
+
+
+/*  DR GHADA TEXT */
+    /* Not selected */
 .pa{
     color: white;
     font-size: 0px;
 }
+ 
+
+/*  DR LOUBNA TEXT */
+    /* Not selected */
 .pan{
     color: white;
     font-size: 0px;
 }
 
-p {
-    padding-left: 20px;
-    font-size: 20px;
-    line-height: 30px;
-    font-family: "Arial", Helvetica, Arial, sans-serif;
-}
-h2{
-    color: #0d0ac7;
-    line-height: 30px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "Arial", Helvetica, Arial, sans-serif;
-    padding-bottom: 40px;
-    font-weight: lighter;
-}
+
+/* padding for the DRS text names */
+
 .Drs{
     padding-left: 4vh;
 padding-right: 2vh;
@@ -48,22 +61,8 @@ padding-bottom: 4vh;
    
 }
 
-h4{
-    font-size: 25px;
-    line-height: 26px;
-    font-family: "Arial", Helvetica, Arial, sans-serif;
-    margin-bottom: 15px;
-    letter-spacing: 0px;
-    font-weight: lighter;
-    color: #161922;
-}
-.aboutusmainphoto{
-    max-width: 100%;
-    padding-left: 0%;
-    border: none;
-    margin: 0%;
-}
 
+/* veiw more and less buttons: LOUBNA */
 .Lubna_text_other{
     color: white;
     padding-left: 3%;
@@ -76,6 +75,7 @@ h4{
         border: none;
         background-color: white;
     }
+/* veiw more and less buttons: GHADA */
 .DRS_text{
 color: purple;
     padding-left: 3%;
@@ -90,6 +90,7 @@ color: purple;
     }
 
 
+/* toggle the veiw more and less: GHADA */
 .toggle_info .DRS_text{
 color: white;
 }
@@ -101,13 +102,14 @@ color: white;
     font-size: 20px;
 }
 
+/* toggle the veiw more and less: LOUBNA */
 .toggle_info_loubna .Lubna_text{
     color: white;
     }
-    .toggle_info_loubna .Lubna_text_other{
+.toggle_info_loubna .Lubna_text_other{
         color: purple;
     }
-    .toggle_info_loubna .pan{
+.toggle_info_loubna .pan{
         color: black;
         font-size: 20px;
     }

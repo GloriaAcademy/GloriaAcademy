@@ -3,7 +3,13 @@
 h9{
 font-size: 18px;
 }
+.paymentbutton{
+  border:none;
+  background-color: white;
+  padding-top: 10vh;
+padding-bottom: 5vh;
 
+}
 
 
 .close_menu {

@@ -1,28 +1,62 @@
-h9 {
-    color: white;
-}
-
+/* background and body */
 *{
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 
 }
-/*    -webkit-transition: all 0.35s ease-in;
-transition: all 0.35s ease-in-out; */
-.table {
+.body{
+    background-color:white;
+}
+
+.style{
     position: fixed;
 }
 
+
+
+/* Gloria academy logo */
+.mainupper{
+    margin-left: 5vw;
+    margin-top: 5px;
+    margin-right: 7.9vw;
+     box-shadow: 0 0 30px black;
+}
+
+
+/* contact us button */
+.contactus{
+    background-color: #0d0ac7;
+    border-width:0.1px;
+    box-shadow: 0 0 30px black;  margin-right: -15px;
+    border: solid;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-left: 2vmax;
+    border-radius: 7px;
+
+}
+
+/* text la barrat il page */
+h9 {
+    color: white;
+}
+
+/* main image dimensions */
 .main{
     image-resolution:initial;
-    height: 25vmax;
+    height: 35vmax;
     width: 100%;
 
 
 }
+
+/* search button */
+
 .main-search{
     image-resolution:initial;
     height: 300px;
@@ -34,40 +68,10 @@ transition: all 0.35s ease-in-out; */
     color: white;
     text-decoration: none;
 }
-   .bar{
+.bar{
     position:relative;
    }
-/* .aboutus_button{
-    text-decoration: none;
-    color: white;
-padding-top: 3%;
-padding-bottom: 1%;
-padding-left: 5vw;
-margin-bottom: 200vh;
-    background-image:linear-gradient(to bottom right, blue, rgb(0, 191, 255));
 
-}  */
-.outer{
-    align-items: start;
-    display: flex;
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    position: relative;
-}
-.inner{
-    background: orange;
-    border: 20px;
-    width: 200px;
-    height: 100px;
-    border-radius: 50%;
-}
-.mainupper{
-   margin-left: 5vw;
-   margin-top: 5px;
-   margin-right: 7.9vw;
-    box-shadow: 0 0 30px black;
-}
 .type{
     border-radius: 4%;
     padding: 1vi;
@@ -91,23 +95,7 @@ border-radius:5px ;
 margin-left: 1px;
 
 }
-.contactus{
-
-    background-color: #0d0ac7;
-border-width:0.1px;
-    box-shadow: 0 0 30px black;  margin-right: -15px;
-    border: solid;
-    color: white;
-padding-top: 2vh;
-padding-bottom: 2vh;
-padding-right: 2vw;
-padding-left: 2vw;
-   margin-left: 2vmax;
-    /* margin-bottom: 7%;
-    margin-top: 2%; */ 
-    border-radius: 7px;
-
-}
+/* unselected sections: */
 .buttons_menu{
     padding-top: 1vh;
     width: 5vmax;
@@ -121,6 +109,7 @@ padding-left: 2vw;
     color: black;
    
 }
+
 .buttons_menu2{
 
     width: 5vmax;
@@ -135,6 +124,7 @@ padding-left: 2vw;
 
 
 }
+
 .buttons_menu3{
 
     width:5vmax;
@@ -147,6 +137,7 @@ padding-left: 2vw;
     font-size: 2vmax;
 
 }
+
 .buttons_menu4{
     width: 5vmax;
     border: none;
@@ -159,6 +150,8 @@ color: black;
     font-size: 2vmax;
 }
 
+
+/* for the selected section color to be different than the others  */
 
 .buttonsame_menu{
     width: 2vmax;
@@ -176,105 +169,26 @@ color: black;
     color: red;
 }
 
+/* table width */
 .table {
     max-width: 50px;
 }
-/* do the main photo change the color theme and make the main upper without a background */
 
+/* register button */
+.Register_button{
+    background-color: red;
+    border: none;
+    padding: 15%;
+    color: white;
+    border-radius: 7px;
+    margin-top: 5vh;
+    margin-left: 7vw;
+ }
 
-@media only  screen and (min-width: 700px ) {
-
-    .submit{
-    
-        background-color: hsl(241, 90%, 41%);   
-        box-shadow: 0 0 30px black;
-        font-size: 20px;
-        color: #ffffff;
-        border: solid;
-        border-width: 2px;
-        padding-left: 5vi;
-    padding-right: 5vi;
-    padding-top: 1vi;
-    padding-bottom: 1vi;
-    border-radius:5px ;
-    margin-left: 1px;
-    
-    }
-    .contactus{
-    
-        background-color: #0d0ac7;
-    border-width:1px;
-        box-shadow: 0 0 30px black;  margin-right: -15px;
-        border: solid;
-        color: white;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 2vw;
-    padding-left: 2vw;
-       margin-left: 20vw;
-        /* margin-bottom: 7%;
-        margin-top: 2%; */ 
-        border-radius: 7px;
-    
-    }
-    .buttons_menu{
-        padding-top: 1vh;
-        width: 14vw;
-        border: none;
-        background-color: white;
-        padding-right: 5vw;
-        font-size: 3vmax;
-        padding-bottom: 1vh;
-        color: black;
-       
-    }
-    .buttons_menu2{
-    
-        width: 14vw;
-        border: none;
-        background-color: white;
-        padding-right: 5vw;
-        font-size: 3vmax;
-        padding-bottom: 2vh;
-        color: black;
-    
-    
-    }
-    .buttons_menu3{
-    
-        width: 14vw;
-        border: none;
-        background-color: white;
-        margin-right: 1vw;
-    
-        padding-bottom: 1vh;
-        color: black;
-        font-size: 3vmax;
-    
-    }
-    .buttons_menu4{
-        width: 14vw;
-        border: none;
-        background-color: white;
-    color: black;
-        padding-right: 1vw;
-        padding-bottom: 1vh;
-        font-size: 3vmax;
-    }
-    
-    
-    .buttonsame_menu{
-        width: 14vw;
-        padding-top: 1vh;
-        border: none;
-        background-color: white;
-        margin-right: 3vw;
-        font-size: 3vmax;
-        padding-bottom: 1vh;
-        
-        color: red;
-    }
-    
-    
+/* Main text */
+p {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
 }
-/* use this method to make all the designs for the phone  */
