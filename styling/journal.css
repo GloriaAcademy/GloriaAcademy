@@ -67,7 +67,7 @@ p{
     
 }
 b {
-    color: rgb(222, 130, 18);
+    color: rgb(36, 170, 237);
     font-size: 25px;
     text-align: center;
       letter-spacing: 0.3px;
@@ -105,6 +105,9 @@ b {
   color: white;
   box-shadow: 0 0 30px black;
 }
+.buttonman:hover {
+  background-color: #0a8ff5;
+}
 
 @media only  screen and (min-width: 500px ) {
 
@@ -122,3 +125,7 @@ box-shadow: 0 0 30px black;
 
 
 }
+
+
+
+/* zabbet is publicsation guidlines  */

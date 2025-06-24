@@ -52,6 +52,7 @@ b {
 }
 
 
+
 /* padding for the DRS text names */
 
 .Drs{
@@ -88,6 +89,13 @@ color: purple;
         border: none;
         background-color: white;
     }
+
+.DRS_text:hover  {
+    color: rgb(212, 0, 255);
+}
+.Lubna_text:hover {
+     color: rgb(212, 0, 255);   
+}
 
 
 /* toggle the veiw more and less: GHADA */

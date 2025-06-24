@@ -16,6 +16,11 @@
 
 }
 
+.menu_buttons:hover{
+  background-image: linear-gradient(to bottom right, #2ef1ff, rgb(72, 0, 255)); 
+ 
+}
+
 /* the number attached box  */
 .call_us{
     box-shadow: 0 0 40px rgb(10, 72, 66);
