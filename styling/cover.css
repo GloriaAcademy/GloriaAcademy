@@ -1,0 +1,32 @@
+/* dowload button */
+
+.download_button{
+    margin-top: 15px;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin-bottom: 5vh;
+    margin-right: 10px;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 1vmax;
+    border: none;
+    font-size: 3vi;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0 0 40px rgb(10, 72, 66);
+    background-image: linear-gradient(to bottom right, #0d0ac7, rgb(0, 191, 255)); 
+  
+  }
+
+/* text  */
+
+.cover_links{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+}

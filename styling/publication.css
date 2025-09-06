@@ -1,0 +1,109 @@
+
+
+#pdf   {
+    position: absolute;
+
+    left: 10vw;
+    height: 600px;
+    width: 50%;
+   border:solid;
+}
+#pdfexpress {
+    left: 300;
+    height: 600px;
+    width: 90vw;
+}
+
+.pdfsharjee #pdf {
+    top: 0;
+    height: 0px;
+    width: 0px;
+}
+
+
+.rowmen{
+    min-height: 10vh;
+    min-width: 150vw;
+}
+
+
+
+.Articles {
+
+    background-color: blue;
+    font-size: 5vmax;
+    color: white;
+    border-color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 5%;
+   margin-left: -5vw;
+   padding-right: 3%;
+   border-radius: 10px;
+   min-width: 900px;
+   
+
+}
+
+.h22 {
+    margin-left: 7vw;
+    font-size: large;
+      color: rgb(184, 0, 190);
+      font-weight: 700;
+      text-decoration-line: none;
+      cursor: pointer;
+
+
+}
+
+h4 {
+    font-size: larger;
+
+      font-weight: 700;
+      margin-left: 10vw;
+}
+.Articleslalphone{
+    display: flex;
+    font-size: 1.7vmax;
+    text-decoration-line: none;
+
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
+
+.buttonlalphone {
+    background-color: rgb(101, 15, 166);
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 2%;
+    border-width: 5px;
+    padding: 10%;
+    margin-bottom: 2%;
+    max-width: 90%;
+    min-width: 90%;
+    
+}
+
+
+
+ .card {
+
+  border: 1px solid black;
+
+background-color: rgb(101, 15, 166);
+  padding:2vi;
+  margin: 5vi;
+  border-radius: 5%;
+}
+
+.row2 {
+
+    justify-items: start;
+    align-items: start;
+}
+

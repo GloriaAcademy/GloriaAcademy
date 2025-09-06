@@ -1,0 +1,71 @@
+/* Menu Buttons */
+
+.menu_buttons{
+  margin-top: 15px;
+
+  margin-bottom: 5vh;
+  width: 20vw;
+  height: 10vh;
+  border-radius: 1vmax;
+  border: none;
+  font-size: 3vi;
+  color: white;
+  font-weight: bolder;
+  box-shadow: 0 0 40px rgb(10, 72, 66);
+  background-image: linear-gradient(to bottom right, #c260ff, rgb(122, 12, 136));
+   
+}
+
+.menu_buttons:hover{
+   background-image: linear-gradient(to top right, #c260ff, rgb(122, 12, 136));
+    
+}
+
+/* the number attached box  */
+.call_us{
+    box-shadow: 0 0 40px rgb(10, 72, 66);
+     width: 75vmax;
+     height: 9vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:   #0d0ac7;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.call_us_text{
+   
+       width: 50vmax;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* the email attached box  */
+.email{
+   width: 75vmax;
+     height: 9vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:   #0d0ac7;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(10, 72, 66);
+    border-style: solid;
+}
+
+.email_text{
+    color: black;
+      width: 50vmax;
+    font-size: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+

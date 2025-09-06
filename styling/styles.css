@@ -1,0 +1,290 @@
+/* these settings are exclusivly for the laptop or ipad */
+
+@media only  screen and (min-width: 1000px ) {
+
+/* search button  */
+
+.search {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+
+
+ a:hover {
+    color: #ffffff;
+} 
+
+.submit:hover {
+    background-color: #2eacbd;
+    color:aliceblue
+} 
+
+ .submit{
+    
+        background-image: linear-gradient(to bottom right, #c260ff, rgb(122, 12, 136));
+    box-shadow: 0 0 5px black;
+        font-size: 20px;
+        color: #ffffff;
+        border: solid;
+        border-width: 2px;
+        padding-left: 5vi;
+        padding-right: 5vi;
+    padding-top: 1vi;
+         padding-bottom: 1vi;
+    border-radius:5px ;
+    margin-right: 15vw;
+    margin-left: 0vw;
+    
+    }
+    .submit:hover {
+             background-image: linear-gradient(to top right, #c260ff, rgb(153, 9, 155));
+  
+    }
+
+
+    .cover {
+        display: grid;
+        height: 40vmax;
+        width: 30vmax;
+        margin-left: 1vw;
+        box-shadow: 0 0 30px black;  margin-right: -15px;
+       
+    
+    }
+    
+  
+    
+    #pdf   {
+        position: absolute;
+    
+        left: 10vw;
+        height: 600px;
+        width: 50%;
+       border:solid;
+    }
+    
+    .pdfsharjee #pdf {
+        top: 0;
+        height: 0px;
+        width: 0px;
+    }
+    
+    
+
+    
+    
+    .rowmen{
+        min-height: 10vh;
+        min-width: 50vw;
+    }
+    
+    
+    
+    .Articles {
+    
+        background-color: blue;
+        font-size: larger;
+        color: white;
+        border-color: white;
+       padding-top: 1%;
+       padding-bottom: 1%;
+       padding-left: 3%;
+       margin-left: 0.25vw;
+       padding-right: 3%;
+       border-radius: 10px;
+       
+    
+    }
+    
+    .h22 {
+        margin-left: 7vw;
+        font-size: large;
+          color: rgb(184, 0, 190);
+          font-weight: 700;
+          text-decoration-line: none;
+          cursor: pointer;
+    
+    
+    }
+    
+    h4 {
+        font-size: larger;
+    
+          font-weight: 700;
+          margin-left: 10vw;
+    }
+  
+
+    .Cover_button {
+    padding: 15vmax;
+    margin: 10vmax;
+        background-color: orange;
+        background-image: none;
+        background-size: 0%;
+    font-size: x-large;
+    min-width: 70%;
+    color: white;
+}
+h1 {
+    margin-right: 0%;
+    margin-left: 0%;
+    font-size: x-large;
+    color: rgb(89, 7, 166);
+
+}
+
+
+
+}
+
+
+
+
+/* these settings are only for tablet */
+
+@media only  screen and (min-width: 500px) and (max-width: 1000px) {
+
+
+   .mainupper{
+    margin-left: 0vw;
+    margin-top: -10vmax;
+    margin-right: -2vw;
+     box-shadow: 0 0 5px black;
+    
+    
+}
+body {
+    background-image: none;
+       background-size:0%;
+    background-color: #c7c7c7;
+}
+
+
+.ghada_text {
+    margin-left: 30%;
+    max-width: 200px;
+    min-width: 100px;
+}
+    
+h5 {
+    font-size: 6vmax;
+    min-width: 50vmax;
+}
+
+
+
+
+
+    .Cover_button {
+    padding: 15vmax;
+    margin: 10vmax;
+        background-color: orange;
+        background-image: none;
+    font-size: x-large;
+    min-width: 70%;
+    color: white;
+}
+h1 {
+    margin-right: 0%;
+    margin-left: 0%;
+    font-size: x-large;
+    color: rgb(89, 7, 166);
+
+}
+
+
+
+}
+
+/* phone only */
+
+@media only  screen and (max-width: 500px ) {
+
+
+
+
+.ghada_text {
+    width:50vw;
+    height: 50vh;
+    max-width: 40px;
+    margin-left: 10%;
+
+}
+    
+h5 {
+    font-size: 4vmax;
+    align-self: center;
+   justify-self: end;
+   
+}
+
+.form {
+    display: none;
+
+}
+
+.type{
+  display: none;
+    color: transparent;
+
+}
+.submit{
+  background-color: transparent;
+   display: none;
+  color: transparent;
+  border: none;
+
+
+}
+
+.contactus , .Journal {
+    font-size: 10px;
+    padding: 5vi;
+    margin:5%;
+}
+.dropbtn {
+    font-size:13px;
+
+  
+}
+.dropdown {
+    max-width: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+.row1 {max-width: 390px;}
+
+/* Change color of dropdown links on hover */
+.submenu_item:active ,.dropdown-content a:hover {background-color: #ddd;}
+/* Show the dropdown menu on hover */
+.dropdown:active .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:active .dropbtn {color: #ffffff}
+
+.dropdown-content{
+    margin-top: 50px;
+}
+.submenu {
+    margin-left: 60%;
+}
+
+
+.geopolitics  {
+    height: 0vh;
+    margin-left: 0px;
+
+}
+
+p {
+    display: flex;
+    margin-left: 5%;
+}
+
+.cover {
+    display: none;
+}
+
+}

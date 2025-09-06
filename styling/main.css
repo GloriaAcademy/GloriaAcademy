@@ -1,0 +1,345 @@
+/* background and body */
+*{
+ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+  body{
+     background-image: url('photos/ghada.jpg'); 
+    background-repeat: no-repeat;
+       background-size: cover;
+       background-position: fixed center ;
+       background-color: #c7c7c7;
+          
+}
+
+.style{
+    position: fixed;
+}
+
+h5 , h6 {
+    color: rgba(142, 14, 159, 0.552);
+    text-shadow: 5px 5px 5px #ffffff;
+    margin-top: 10vh;
+    margin-left: 10%;
+    max-width: 40vw;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h6 {
+    font-size: 10px;
+    align-self: start ;
+    min-width: 90%;
+    margin-left: 0px;
+}
+h5 {
+        font-size: 5vmax;
+}
+
+/* row for courses  */
+
+.row1 {
+    display: flex;
+    align-self: end;
+    justify-content: end;
+}
+
+
+
+/* Gloria academy logo */
+.mainupper{
+    margin-left: 0vw;
+    margin-top: -10px;
+    margin-right: 14vw;
+     box-shadow: 0 0 5px black;
+}
+
+
+
+/* contact us button */
+    .contactus{ 
+    background-color: whitesmoke;
+    border-width:-1px;
+    box-shadow: 0 0 5px black;  margin-right: -15px;
+    border: solid;
+    color: #8d87ff;
+    cursor: pointer;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-left: 3vw;
+    border-radius: 7px;
+    
+    }
+
+/* Journal button */
+
+   .Journal{
+    background-color: rgb(194, 37, 208);
+    border-width:-1px;
+    box-shadow: 0 0 5px black;  margin-right: -15px;
+    border: solid;
+    color: #ffffff;
+    cursor: pointer;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-left: 3vw;
+    border-radius: 7px;
+    
+    }
+
+
+
+
+
+/* text la barrat il page */
+h9 {
+    color: transparent;
+}
+
+/* main image dimensions */
+.main{
+    image-resolution:initial;
+    height: 35vmax;
+    width: 100%;
+
+
+}
+
+/* search button */
+
+.main-search{
+    image-resolution:initial;
+    height: 300px;
+    width: 100%;
+    
+
+}
+.search{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none; */
+    color: transparent;
+  
+}
+.bar{
+    position:relative;
+   }
+
+.type{
+    color: transparent;
+
+border: none;
+}
+.submit{
+  background-color: transparent;
+border: none;
+  color: transparent;
+  
+
+
+}
+/* unselected sections: */
+ .button_menu{
+        font-size: larger;
+        border: none;
+        background-color: transparent;
+        padding-bottom: 1vh;
+        margin-left: 3vw;
+        color: white;
+        cursor: pointer;
+    }
+  
+
+.button_menu:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
+
+/* for the selected section color to be different than the others  */
+
+ 
+    .buttonsame_menu{
+     width: 5vmin;
+        padding-top: 1vh;
+        border: none;
+       background-color: transparent;
+      margin-right: 3vw;
+        font-size: 3vmax;
+        padding-bottom: 1vh;
+        
+           color: #f8c7ff;
+    }
+    
+
+
+/* table width */
+.table {
+    max-width: 50px;
+}
+
+/* register button */
+.Register_button{
+    background-color: red;
+    border: none;
+    padding: 15%;
+    color: white;
+    border-radius: 7px;
+    margin-top: 5vh;
+    margin-left: 7vw;
+ }
+
+/* Main text */
+p {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+}
+
+
+
+.dropbtn {
+    font-size: larger;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 1vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    color: #b217c7;
+    cursor: pointer;
+}
+
+.Sdropbtn {
+    font-size: larger;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 1vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    color: #4f0558;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Change color of dropdown links on hover */
+.submenu_item:hover ,.dropdown-content a:hover {background-color: #ddd;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: #ffffff}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 10%;
+  background-color: #7b5880;
+  min-width: 240px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  right: -20%;
+}
+
+
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* submenu */
+
+ .submenu_lst {
+    background: #aa8aae;
+    border-radius: 10%;
+    position: absolute;
+    left:100%;
+    top: 0;
+    min-width: max-content;
+    display: none;
+ }
+
+ .submenu {
+  position: relative;  
+ }
+
+.submenu:hover .submenu_lst {
+    display: block;
+}
+
+
+.ghada {
+    height: 60vh;
+    margin-left: 10vw;
+}
+.ghada_text {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+p {
+    font-size: 160%;
+    color: rgb(41, 41, 41);
+    text-align: start;
+    justify-content: first baseline;
+   max-width: 90%;
+   margin: 1%;
+    
+}
+
+h7 {
+    display: flex;
+    margin-left: 10vw;
+    text-align: start;
+    justify-content: start;
+    font-size: 3vmax;
+}
+
+
+.geopolitics {
+    height: 60vh;
+
+}
+
+.courses {
+    height: 50%s;
+    width: 50%;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+
+}

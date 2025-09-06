@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@300display=swap');
+
+.suggestbutton {
+  border:20;
+  border-radius: 10%;
+  background-color: rgb(11, 193, 132);
+  color: white;
+
+
+}
+
+h9{
+font-size: 18px;
+}
+.paymentbutton{
+  border:none;
+  background-color: white;
+  padding-top: 10vh;
+padding-bottom: 5vh;
+
+}
+
+
+.close_menu {
+ height: 17%;
+ width: 12%;
+margin-left: 10px;
+border: none;
+border-radius: 5px;
+background-color: white;
+color: black;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility:hidden;
+    width: 46vw;
+    height: 79vh;
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+  
+    bottom: 270%;
+    left: 290%;
+    margin-left: -80px;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility:  visible;
+  }
+  
+.text{
+    border-radius: 5%;
+    padding-left: 3vi;
+    padding-right: 3vi;
+    padding-top: 2vi;
+    padding-bottom: 1vi;
+    color: black;
+    box-shadow: 0 0 5px black;
+    margin-top: 5px;
+margin-bottom: 2vh;
+}
+
+.I{
+  height: 50px;
+  width: 200px;
+  color: black;
+  text-align: center;
+  font-size: larger;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  margin-top: 2px;
+}
+  
+.proceed{
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 40%;
+  width: 40%;
+ border: none;
+ font-size: 20px;
+ border-radius: 5px;
+ background-color: white;
+ color: black;
+}

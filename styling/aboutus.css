@@ -1,0 +1,145 @@
+/* background */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+/* About us photo */
+.about_us_title{
+    max-width: 100px;
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color:white;
+    border: none;
+    background-image: linear-gradient(to bottom right, #b10792, rgb(111, 4, 76));
+   padding: 8%;
+padding-left: 13%;
+padding-right: 13%;
+   border-radius: 17%;
+   
+margin-left: 10vw;
+
+}
+.dv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus {
+border: solid;
+
+height: 300px;
+width: 300px;
+}
+
+
+/* Gloria Academy in blue  */
+b {
+    color:#b10792;
+    font-size: 25px;
+    text-align: center;
+      letter-spacing: 0.3px;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+
+/*  DR GHADA TEXT */
+    /* Not selected */
+.pa{
+    color: #c7c7c7;
+    font-size: 0px;
+}
+ 
+
+/*  DR LOUBNA TEXT */
+    /* Not selected */
+.pan{
+    color: #c7c7c7;
+    font-size: 0px;
+}
+
+p {
+      color:#4e0d42;
+}
+
+
+/* padding for the DRS text names */
+
+.Drs{
+    padding-left: 4vh;
+padding-right: 2vh;
+padding-bottom: 4vh;
+   
+}
+
+
+/* veiw more and less buttons: LOUBNA */
+.Lubna_text_other{
+    color: #c7c7c7;
+    padding-left: 3%;
+    border: none;
+    background-color: #c7c7c7;
+}
+.Lubna_text{
+    color: purple;
+        padding-left: 3%;
+        border: none;
+        background-color: #c7c7c7;
+    }
+/* veiw more and less buttons: GHADA */
+.DRS_text{
+color: purple;
+    padding-left: 3%;
+    border: none;
+    background-color: #c7c7c7;
+}
+.DRS_text_other{
+    color: #c7c7c7;
+        padding-left: 3%;
+        border: none;
+        background-color: #c7c7c7;
+    }
+
+.DRS_text:hover  {
+    color: rgb(212, 0, 255);
+}
+.Lubna_text:hover {
+     color: rgb(212, 0, 255);   
+}
+
+
+/* toggle the veiw more and less: GHADA */
+.toggle_info .DRS_text{
+color: #c7c7c7;
+}
+.toggle_info .DRS_text_other{
+    color: purple;
+}
+.toggle_info .pa{
+    color: black;
+    font-size: 20px;
+}
+
+/* toggle the veiw more and less: LOUBNA */
+.toggle_info_loubna .Lubna_text{
+    color: #c7c7c7;
+    }
+.toggle_info_loubna .Lubna_text_other{
+        color: purple;
+    }
+.toggle_info_loubna .pan{
+        color: black;
+        font-size: 20px;
+    }
+    
