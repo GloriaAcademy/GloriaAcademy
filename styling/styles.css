@@ -201,8 +201,21 @@ h1 {
 
 @media only  screen and (max-width: 500px ) {
 
+.mainupper {
+    height: 90px;
+    margin-right: 0px;
+}
 
-
+.contactus{ 
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-left: 1vw;
+    border-radius: 5px;
+    margin-right: 0px;
+    
+    }
 
 .ghada_text {
     width:50vw;
