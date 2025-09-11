@@ -12,12 +12,12 @@
   color: white;
   font-weight: bolder;
   box-shadow: 0 0 40px rgb(10, 72, 66);
-  background-image: linear-gradient(to bottom right, #c260ff, rgb(122, 12, 136));
+  background-image: linear-gradient(to bottom right, goldenrod, rgb(151, 111, 10));
    
 }
 
 .menu_buttons:hover{
-   background-image: linear-gradient(to top right, #c260ff, rgb(122, 12, 136));
+   background-image: linear-gradient(to top right, rgb(151,111,10),goldenrod);
     
 }
 

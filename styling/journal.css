@@ -79,7 +79,7 @@ p{
     
 }
 b {
-    color:   #e263f3;;
+    color:   rgb(174, 129, 13);
     font-size: 25px;
     text-align: center;
       letter-spacing: 0.3px;
@@ -89,7 +89,7 @@ b {
     margin-bottom: 1%;
 
 }
-h8{
+h8 {
     display: flex;
     margin-left: 10vw;
     text-align: start;

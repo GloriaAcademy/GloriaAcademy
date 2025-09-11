@@ -19,7 +19,7 @@
     justify-content: center;
     color:white;
     border: none;
-    background-image: linear-gradient(to bottom right, #b10792, rgb(111, 4, 76));
+    background-image: linear-gradient(to bottom right, rgb(255, 184, 4), rgb(114, 84, 8));
    padding: 8%;
 padding-left: 13%;
 padding-right: 13%;
@@ -47,7 +47,7 @@ h3 {
 
 /* Gloria Academy in blue  */
 b {
-    color:#b10792;
+    color:rgb(215, 158, 12);
     font-size: 25px;
     text-align: center;
       letter-spacing: 0.3px;
@@ -73,7 +73,7 @@ b {
 }
 
 p {
-       color:#4e0d42;
+       color:rgb(114, 89, 25);
 }
 
 
@@ -98,14 +98,16 @@ width: 12vmax;
 }
 .Lubna_text{
     font-size: 3vmax;
-    color: purple;
+    color: goldenrod;
         padding-left: 3%;
         border: none;
         background-color: #c7c7c7;
+        cursor: pointer;
     }
 /* veiw more and less buttons: GHADA */
 .DRS_text{
-color: purple;
+  color: goldenrod;
+  cursor: pointer;
 font-size: 3vmax;
     padding-left: 3%;
     border: none;
@@ -119,10 +121,10 @@ font-size: 3vmax;
     }
 
 .DRS_text:hover  {
-    color: rgb(212, 0, 255);
+    color: gold;
 }
 .Lubna_text:hover {
-     color: rgb(212, 0, 255);   
+     color: gold;   
 }
 
 
@@ -131,7 +133,7 @@ font-size: 3vmax;
 color: #c7c7c7;
 }
 .toggle_info .DRS_text_other{
-    color: purple;
+     color: goldenrod;
     font-size: 3vmax;
 }
 .toggle_info .pa{
@@ -144,7 +146,7 @@ color: #c7c7c7;
     color: #c7c7c7;
     }
 .toggle_info_loubna .Lubna_text_other{
-        color: purple;
+          color: goldenrod;
         font-size: 3vmax;
     }
 .toggle_info_loubna .pan{

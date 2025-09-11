@@ -17,12 +17,12 @@
 
 .submit:hover {
     background-color: #2eacbd;
-    color:aliceblue
+    color:aliceblue;
 } 
 
  .submit{
     
-        background-image: linear-gradient(to bottom right, #c260ff, rgb(122, 12, 136));
+        background-image: linear-gradient(to bottom right, goldenrod, rgb(122, 12, 136));
     box-shadow: 0 0 5px black;
         font-size: 20px;
         color: #ffffff;
@@ -38,7 +38,7 @@
     
     }
     .submit:hover {
-             background-image: linear-gradient(to top right, #c260ff, rgb(153, 9, 155));
+             background-image: linear-gradient(to top right, #8b14d5,goldenrod);
   
     }
 
@@ -298,6 +298,10 @@ p {
 
 .cover {
     display: none;
+}
+
+.dropbtn {
+    font-size: 12px;
 }
 
 }

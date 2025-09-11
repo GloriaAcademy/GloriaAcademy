@@ -20,7 +20,7 @@
 }
 
 h5 {
-    color: rgba(142, 14, 159, 0.552);
+    color: rgb(249, 180, 6);
     text-shadow: 5px 5px 5px #ffffff;
     margin-top: 10vh;
     margin-left: 10%;
@@ -30,7 +30,7 @@ h5 {
 
 h6 {
      font-family:'Courier New', Courier, monospace;
-    color: purple;
+    color: goldenrod;
     font-size: 5vmax;
     align-self: start ;
     min-width: 90%;
@@ -67,7 +67,7 @@ h5 {
     border-width:-1px;
     box-shadow: 0 0 5px black;  margin-right: -15px;
     border: solid;
-    color: #8d87ff;
+    color: goldenrod;
     cursor: pointer;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -81,7 +81,7 @@ h5 {
 /* Journal button */
 
    .Journal{
-    background-color: rgb(194, 37, 208);
+    background-color: rgb(255, 187, 15);
     border-width:-1px;
     box-shadow: 0 0 5px black;  margin-right: -15px;
     border: solid;
@@ -219,7 +219,7 @@ p {
     padding-bottom: 1vh;
     margin-right: 1.5vw;
     margin-left: 1.5vw;
-    color: #b217c7;
+    color: rgb(216, 159, 17);
     cursor: pointer;
 }
 
@@ -230,7 +230,7 @@ p {
     padding-bottom: 1vh;
     margin-right: 1.5vw;
     margin-left: 1.5vw;
-    color: #4f0558;
+    color: rgb(165, 120, 5);
     text-underline-offset: 10px;
     text-decoration: underline;
     cursor: pointer;
@@ -257,7 +257,7 @@ p {
   display: none;
   position: absolute;
   border-radius: 10%;
-  background-color: #7b5880;
+  background-color: rgb(255, 184, 4);
   min-width: 240px;
 
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -281,7 +281,7 @@ p {
 /* submenu */
 
  .submenu_lst {
-    background: #aa8aae;
+    background: rgb(218, 164, 28);
     border-radius: 10%;
     position: absolute;
     left:100%;
