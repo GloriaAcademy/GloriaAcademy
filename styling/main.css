@@ -55,7 +55,7 @@ h5 {
     height: 10vi;
     margin-left: 0vw;
     margin-top: -10px;
-    margin-right: 14vw;
+    margin-right: 10vw;
      /* box-shadow: 0 0 5px black; */
 }
 
@@ -73,7 +73,7 @@ h5 {
     padding-bottom: 2vh;
     padding-right: 2vw;
     padding-left: 2vw;
-    margin-left: 3vw;
+    margin-left: 4vw;
     border-radius: 7px;
     
     }
@@ -91,9 +91,8 @@ h5 {
     padding-bottom: 2vh;
     padding-right: 2vw;
     padding-left: 2vw;
-    margin-left: 3vw;
+
     border-radius: 7px;
-    
     }
 
 
