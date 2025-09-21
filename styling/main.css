@@ -44,8 +44,8 @@ h5 {
 
 .row1 {
     display: flex;
-    align-self: end;
-    justify-content: end;
+    align-self: center;
+    justify-content: center;
 }
 
 
@@ -212,12 +212,12 @@ p {
 
 
 .dropbtn {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
+    min-width: 100%;
     border: none;
     background-color: transparent;
     padding-bottom: 1vh;
-    margin-right: 1.5vw;
-    margin-left: 1.5vw;
+    margin-right: 1.9vw;
     color: rgb(216, 159, 17);
     cursor: pointer;
 }
