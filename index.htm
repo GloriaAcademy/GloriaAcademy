@@ -1,233 +1,268 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gloria Academy - Premier International Multidisciplinary Studies, Education Courses, Arbitration, Geopolitics, and GIMS Journal.">
+    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
+    <title>Gloria Academy | Passion & Innovation in Education & Research</title>
+
+    <!-- Global Stylesheets & Scripts -->
     <link rel="stylesheet" href="styling/main.css">
     <link rel="stylesheet" href="styling/Education.css">
     <link rel="stylesheet" href="styling/arbitration.css">
     <link rel="stylesheet" href="styling/styles.css">
     <link rel="stylesheet" href="styling/publication.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
-   
-    <title>GloriaAcademy </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-   
+    <script src="javascript/theme.js"></script>
 </head>
-
-<style>
-     .Journal{
-    border-width:-1px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    margin-right: 1vw;
-    border-radius: 7px;
-    font-size: 1.5vi;
-    
-    }
-</style>
 <body class="body">
-    
-    <center>
-      <h9>Be educated so you can change the world...Gloria Academy is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning</h9>
-      
-      <table>
+
+    <!-- Top Sticky Header Navigation -->
+    <header class="site-header">
+        <table class="top-bar-table">
             <tr>
-                <td><img src="photos/mainpagephotos/main upper wht.png" class="mainupper" height="75" alt=""></td>
-           <td>
-            
-        </div>
-        
-        </td>
-         <td> <a href="journal.htm"><button class="Journal">Gloria for International Multidisciplinary Studies (GIMS Journal)</button></a>
-        </td>
-        <td> <a href="aboutus.htm"><button class="contactus">
-            About Us</button></a>
-        </td>
-        <td><div class="dropdown">
-          <button class="contactus">Contact Us </button>  
-                 <div class="dropdown-content">
-                     <a href="#">+96170605396</a>
-                    <a  href="#">gims-journal@gloria-leb.org</a>
-         
-                               
-                
-                             </div>
-               </div></td>
-                     
-                  
-         </td>
+                <td style="width: 20%;">
+                    <a href="index.htm">
+                        <img src="photos/mainpagephotos/main upper wht.png" class="mainupper" alt="Gloria Academy Logo">
+                    </a>
+                </td>
+                <td style="text-align: right; display: flex; align-items: center; justify-content: flex-end; gap: 0.75rem;">
+                    <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <a href="journal.htm">
+                        <button class="Journal">📖 GIMS Journal</button>
+                    </a>
+                    <a href="aboutus.htm">
+                        <button class="contactus">About Us</button>
+                    </a>
+                    <div class="dropdown">
+                        <button class="contactus">Contact Us</button>  
+                        <div class="dropdown-content">
+                            <a href="tel:+96170605396">📞 +961 70 605 396</a>
+                            <a href="mailto:gims-journal@gloria-leb.org">✉️ gims-journal@gloria-leb.org</a>
+                        </div>
+                    </div>
+                </td>
             </tr>
         </table>
-    
-            <br>
-        <br>
-        <br>
+    </header>
 
-            </center>
-   <div class="row1">
+    <!-- Main Navigation Bar -->
+    <nav class="row1" aria-label="Main Category Navigation">
 
-    <!-- EDUCATION -->
-       <div class="dropdown">
-          <button class="dropbtn">Education </button>  
-                 <div class="dropdown-content">
-                  <li class="dropdown submenu">
-                     <a  href="#">Education Courses &#x25b8; </a>
-                        <ul class="submenu_lst">
-                            <dl class="submenu_item">
-                                <a  href="Edu_elemantary+middle.htm"> Elementary + Middle School </a>
-                               
-                            </dl>
-                             <dl class="submenu_item">
-                                <a  href="Edu_secondary.htm"> Secondary </a>
-                             </dl>
-                            <dl class="submenu_item">
-                                <a  href="Edu_teachers.htm"> English and Science Teachers </a>
-                            </dl>
-                        </ul>
-                  </li>
-                     <a class="submenu" href="Edu_workshops.htm">Workshops </a>
+        <!-- EDUCATION -->
+        <div class="dropdown">
+            <button class="dropbtn">Education</button>  
+            <div class="dropdown-content">
+                <div class="submenu">
+                    <a href="#">Education Courses &#x25b8;</a>
+                    <ul class="submenu_lst">
+                        <li class="submenu_item"><a href="Edu_elemantary+middle.htm">Elementary & Middle School</a></li>
+                        <li class="submenu_item"><a href="Edu_secondary.htm">Secondary School</a></li>
+                        <li class="submenu_item"><a href="Edu_teachers.htm">English & Science Teachers</a></li>
+                    </ul>
+                </div>
+                <a href="Edu_workshops.htm">Workshops</a>
 
+                <!-- TCP -->
+                <div class="submenu">
+                    <a href="#">Teaching Certificate Program &#x25b8;</a>
+                    <ul class="submenu_lst">
+                        <li class="submenu_item"><a href="TCP1.htm">Program 1</a></li>
+                        <li class="submenu_item"><a href="TCP2.htm">Program 2</a></li>
+                        <li class="submenu_item"><a href="TCP3.htm">Program 3</a></li>
+                        <li class="submenu_item"><a href="TCP4.htm">Program 4</a></li>
+                        <li class="submenu_item"><a href="TCP5.htm">Program 5</a></li>
+                    </ul>
+                </div>
 
-
-                     <!-- TCP -->
-                       <li class="dropdown submenu">
-                        <a  href="#">Teaching Certificate Program &#x25b8; </a>
-                        <ul class="submenu_lst">
-                            <dl class="submenu_item">
-                                <a  href="TCP1.htm">Program 1 </a>
-                               
-                            </dl>
-                             <dl class="submenu_item">
-                                <a  href="TCP2.htm">Program 2 </a>
-                               
-                             </dl>
-                             <dl class="submenu_item">
-                                <a  href="TCP3.htm">Program 3 </a>
-                               
-                             </dl>
-                             <dl class="submenu_item">
-                                <a  href="TCP4.htm">Program 4 </a>
-                               
-                             </dl>
-                             <dl class="submenu_item">
-                                <a  href="TCP5.htm">Program 5 </a>
-                               
-                             </dl>
-                        </ul>
-                  </li>
-                     
-                  
-
-<!-- programs  -->
-
-                   <li class="dropdown submenu">
-                        <a  href="#">Programs &#x25b8; </a>
-                        <ul class="submenu_lst">
-                            <dl class="submenu_item">
-                                <a  href="Ep1.htm"> Emotional Intelligence Program for K12 Teachers(220hours) </a>
-                               
-                            </dl>
-                             <dl class="submenu_item">
-                                <a  href="Ep2.htm"> Special Education Shadow Teacher Program(220hours) </a>
-                             </dl>
-                            <dl class="submenu_item">
-                                <a  href="Ep3.htm"> Gamification Program for K-12 Students(220hours)</a>
-                            </dl>
-                              <dl class="submenu_item">
-                                <a  href="Ep4.htm">Gamification Program for Teachers(220hours)</a>
-                               
-                            </dl>
-                             <dl class="submenu_item">
-                                <a  href="Ep5.htm"> Entrepreneurship and Professional Development Program(220hours) </a>
-                             </dl>
-                         
-                        </ul>
-                  </li>
-                     </div>
+                <!-- PROGRAMS -->
+                <div class="submenu">
+                    <a href="#">Programs &#x25b8;</a>
+                    <ul class="submenu_lst">
+                        <li class="submenu_item"><a href="Ep1.htm">Emotional Intelligence for K12 (220 hrs)</a></li>
+                        <li class="submenu_item"><a href="Ep2.htm">Special Education Shadow Teacher (220 hrs)</a></li>
+                        <li class="submenu_item"><a href="Ep3.htm">Gamification for K-12 Students (220 hrs)</a></li>
+                        <li class="submenu_item"><a href="Ep4.htm">Gamification for Teachers (220 hrs)</a></li>
+                        <li class="submenu_item"><a href="Ep5.htm">Entrepreneurship & Professional Dev (220 hrs)</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    <!-- ARBITRATION -->
-         <div class="dropdown">
-                <button class="dropbtn">Arbitration</button>
-                <div class="dropdown-content">
-                     <li class="dropdown submenu">
-                        <a  href="#">Arbitration Courses &#x25b8; </a>
-                        <ul class="submenu_lst">
-                            <dl class="submenu_item">
-                                <a  href="Englishforlawyersl-arb.htm"> English for International Lawyers </a>
-                               
-                            </dl>
-                             <dl class="submenu_item">
-                                <a  href="lawcontract-arb.htm"> English Law Contract </a>
-                             </dl>
-                            <dl class="submenu_item">
-                                <a  href="Arblaw-arb.htm"> Arbitration law Prodedure </a>
-                            </dl>
-                            <dl class="submenu_item">
-                                <a  href="busn-talk.htm"> Business talk </a>
-                            </dl>
-                        </ul>
-                  </li>
-                    <a class="dropdown submenu" href="Arbitration_workshops.htm">Workshops</a>
-                    <a class="dropdown submenu" href="Arbitration_programs.htm">Programs</a>
-                    </div>
+
+        <!-- ARBITRATION -->
+        <div class="dropdown">
+            <button class="dropbtn">Arbitration</button>
+            <div class="dropdown-content">
+                <div class="submenu">
+                    <a href="#">Arbitration Courses &#x25b8;</a>
+                    <ul class="submenu_lst">
+                        <li class="submenu_item"><a href="Englishforlawyersl-arb.htm">English for International Lawyers</a></li>
+                        <li class="submenu_item"><a href="lawcontract-arb.htm">English Law Contract</a></li>
+                        <li class="submenu_item"><a href="Arblaw-arb.htm">Arbitration Law Procedure</a></li>
+                        <li class="submenu_item"><a href="busn-talk.htm">Business Talk</a></li>
+                    </ul>
+                </div>
+                <a href="Arbitration_workshops.htm">Workshops</a>
+                <a href="Arbitration_programs.htm">Programs</a>
+            </div>
         </div>
-    <!-- Medicine -->
-         <div class="dropdown">
-                <button class="dropbtn">Medicine</button>
-                <div class="dropdown-content">
-                    <a href="#">This section is not available yet.</a>
-          
-                    </div>
+
+        <!-- MEDICINE -->
+        <div class="dropdown">
+            <button class="dropbtn">Medicine</button>
+            <div class="dropdown-content">
+                <a href="#" style="opacity: 0.7; cursor: default;">ℹ️ Coming Soon</a>
+            </div>
         </div>           
-    <!-- Geopolitics -->
-         <div class="dropdown">
-                <button class="dropbtn">Geopolitics</button>
-                <div class="dropdown-content">
-                    <a href="Geopolitics-overview.htm">OVERVIEW</a>
-                    <a href="Geopolitics-content.htm">CONTENT</a>
-                    <a href="Geopolitics-objectives.htm">OBJECTIVES</a>
-                    </div>
+
+        <!-- GEOPOLITICS -->
+        <div class="dropdown">
+            <button class="dropbtn">Geopolitics</button>
+            <div class="dropdown-content">
+                <a href="Geopolitics-overview.htm">Overview</a>
+                <a href="Geopolitics-content.htm">Content</a>
+                <a href="Geopolitics-objectives.htm">Objectives</a>
+            </div>
         </div>          
-    <!-- Oil and gas -->
-         <div class="dropdown">
-                <button class="dropbtn">Oil and Gas </button>
-                <div class="dropdown-content">
-                     <a href="Oilandgas-intro.htm">Intro</a>
-                  <a href="Oilandgas-course1.htm">Course 1</a>
-                    <a href="Oilandgas-course2.htm">Course 2</a>
-                    <a href="Oilandgas-course3.htm">Course 3</a>
-                    <a href="Oilandgas-course4.htm">Course 4</a>
-                    <a href="Oilandgas-course5.htm">Course 5</a>
-                    </div>
+
+        <!-- OIL AND GAS -->
+        <div class="dropdown">
+            <button class="dropbtn">Oil & Gas</button>
+            <div class="dropdown-content">
+                <a href="Oilandgas-intro.htm">Introduction</a>
+                <a href="Oilandgas-course1.htm">Course 1</a>
+                <a href="Oilandgas-course2.htm">Course 2</a>
+                <a href="Oilandgas-course3.htm">Course 3</a>
+                <a href="Oilandgas-course4.htm">Course 4</a>
+                <a href="Oilandgas-course5.htm">Course 5</a>
+            </div>
         </div>         
-       
-       
-    <!-- English for Lawyers  -->
-         <div class="dropdown">
-                <button class="dropbtn">English for Lawyers</button>
-                <div class="dropdown-content">
-                    <a href="Englishforlawyersl1.htm">LEVEL I</a>
-                    <a href="Englishforlawyersl2.htm">LEVEL II</a>
-                    <a href="Englishforlawyersl3.htm">LEVEL III</a>
-                    <a href="Englishforlawyersl4.htm">LEVEL IV</a>
-                    <a href="Englishforlawyersl5.htm">LEVEL V</a>
 
-          
-                    </div>
+        <!-- ENGLISH FOR LAWYERS -->
+        <div class="dropdown">
+            <button class="dropbtn">English for Lawyers</button>
+            <div class="dropdown-content">
+                <a href="Englishforlawyersl1.htm">Level I</a>
+                <a href="Englishforlawyersl2.htm">Level II</a>
+                <a href="Englishforlawyersl3.htm">Level III</a>
+                <a href="Englishforlawyersl4.htm">Level IV</a>
+                <a href="Englishforlawyersl5.htm">Level V</a>
+            </div>
         </div>
+    </nav>
+
+    <!-- Main Hero Banner Section -->
+    <main class="main-content">
+        <section class="ghada_text">
+            <div>
+                <span style="display: inline-block; background: rgba(245, 158, 11, 0.15); color: var(--primary-gold); font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1rem; border-radius: var(--radius-full); margin-bottom: 1rem; border: 1px solid var(--border-accent);">
+                    ✨ Academic Passion & Innovation
+                </span>
+                <h5>Be Educated So You Can Change The World</h5>
+                <p style="text-align: center; margin: 1.5rem auto; color: var(--text-body); font-size: 1.15rem; max-width: 800px;">
+                    Gloria Academy is built on passion, computer-assisted language learning (CALL), differentiated cooperative learning, intercultural communication, and neuroscience-based cognitive structures.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+                    <a href="journal.htm" class="Journal" style="font-size: 1rem; padding: 0.85rem 2rem;">
+                        Explore GIMS Journal
+                    </a>
+                    <a href="aboutus.htm" class="contactus" style="font-size: 1rem; padding: 0.85rem 2rem;">
+                        Meet Our Team
+                    </a>
+                </div>
+            </div>
+            <div style="margin-top: 2.5rem;">
+                <img class="ghada" src="photos/ghadaa.jpg" alt="Gloria Academy Academic Founder & Director">
+            </div>
+        </section>
+
+        <!-- Dynamic Quick Search Bar -->
+        <section style="margin: 3rem 0; text-align: center;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary-gold-light);">🔍 Search Academic Programs & Publications</h2>
+            <form action="search.htm" method="get" class="search-container">
+                <input type="text" name="q" class="type" placeholder="Search for courses, arbitration, research papers..." required>
+                <button type="submit" class="submit">Search Now</button>
+            </form>
+        </section>
+
+        <!-- Featured Academic Pillars Grid -->
+        <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 3rem;">
+            <div class="card">
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; color: var(--primary-gold);">
+                    🎓 Education & CALL
+                </h3>
+                <p style="font-size: 0.95rem; color: var(--text-muted);">
+                    Innovative teaching certificate programs, special education, and gamification strategies designed for teachers and K-12 students worldwide.
+                </p>
+                <a href="Edu_workshops.htm" style="color: var(--primary-gold); font-weight: 600; text-decoration: none;">View Workshops →</a>
+            </div>
+
+            <div class="card">
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; color: var(--accent-indigo);">
+                    ⚖️ Arbitration & Law
+                </h3>
+                <p style="font-size: 0.95rem; color: var(--text-muted);">
+                    Specialized legal English, international law contracts, and comprehensive arbitration procedure courses led by international arbitrators.
+                </p>
+                <a href="Arbitration_programs.htm" style="color: var(--accent-indigo); font-weight: 600; text-decoration: none;">Explore Programs →</a>
+            </div>
+
+            <div class="card">
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; color: var(--accent-blue);">
+                    🌍 Geopolitics & Energy
+                </h3>
+                <p style="font-size: 0.95rem; color: var(--text-muted);">
+                    In-depth study of international relations, geopolitical dynamics, international recognition, and specialized Oil & Gas courses.
+                </p>
+                <a href="Geopolitics-overview.htm" style="color: var(--accent-blue); font-weight: 600; text-decoration: none;">Read Overview →</a>
+            </div>
+
+            <div class="card">
+                <h3 style="display: flex; align-items: center; gap: 0.5rem; color: var(--accent-purple);">
+                    📚 GIMS Journal
+                </h3>
+                <p style="font-size: 0.95rem; color: var(--text-muted);">
+                    Gloria International Multidisciplinary Studies Journal publishing peer-reviewed research across human rights, education, and arbitration.
+                </p>
+                <a href="journal.htm" style="color: var(--accent-purple); font-weight: 600; text-decoration: none;">Browse Journal →</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Site Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <img src="photos/mainpagephotos/main upper wht.png" alt="Gloria Academy" style="height: 40px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+                    Gloria Academy & Gloria International Multidisciplinary Studies (GIMS Journal)
+                </p>
+            </div>
+            <div>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+                    © 2026 Gloria Academy. All rights reserved. | <a href="CCL.htm" style="color: var(--primary-gold); text-decoration: none;">Creative Commons License</a>
+                </p>
+            </div>
         </div>
-        <div class="ghada_text">
-            <img class="ghada" src="photos/ghadaa.jpg" alt="" srcset="">
-            <h5>Be Educated So you can change the world...</h5>
+    </footer>
 
-        </div>
-          
-     
-
-
+    <!-- Interactive Navigation Touch & Click Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const submenus = document.querySelectorAll('.submenu');
+            submenus.forEach(menu => {
+                const link = menu.querySelector('a');
+                if (link) {
+                    link.addEventListener('click', (e) => {
+                        // Prevent navigation if the link is a parent placeholder or on mobile
+                        if (link.getAttribute('href') === '#' || window.innerWidth <= 900) {
+                            e.preventDefault();
+                            menu.classList.toggle('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>

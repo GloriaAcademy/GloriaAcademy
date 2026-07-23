@@ -1,156 +1,134 @@
-/* background */
+/* Modern Styling for About Us Page & Team Profiles */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-}
-
-
-
-/* About us photo */
-.about_us_title{
-    max-width: 100px;
-    font-size: 50px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    color:white;
-    border: none;
-    background-image: linear-gradient(to bottom right, rgb(255, 184, 4), rgb(114, 84, 8));
-   padding: 8%;
-padding-left: 13%;
-padding-right: 13%;
-   border-radius: 17%;
-   
-margin-left: 10vw;
-
-}
-.dv {
-    display: flex;
+.about_us_title {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-gold-hover) 100%);
+    padding: 1rem 2.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: var(--shadow-gold);
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.dv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .aboutus {
-border: solid;
-
-height: 300px;
-width: 300px;
+    max-width: 260px;
+    height: auto;
+    border-radius: var(--radius-lg);
+    border: 2px solid var(--border-accent);
+    box-shadow: var(--shadow-md);
+    object-fit: contain;
 }
 
-h3 {
-    font-size: 3vmax;
+/* Team Member Profile Cards */
+.team-card, table:has(.Drs) {
+    width: 100%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: var(--bg-surface-elevated);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
 }
 
-/* Gloria Academy in blue  */
-b {
-    color:rgb(215, 158, 12);
-    font-size: 25px;
-    text-align: center;
-      letter-spacing: 0.3px;
-    font-family: "Arial", Helvetica, Arial, sans-serif;
+.team-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+}
+
+.Drs {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-gold);
+    box-shadow: var(--shadow-gold);
+    margin-right: 1.5rem;
+    transition: var(--transition);
+}
+
+.Drs:hover {
+    transform: scale(1.05);
+}
+
+/* Toggle Expand/Collapse Buttons */
+.DRS_text, .DRS_text_other, .Lubna_text, .Lubna_text_other {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
     font-weight: 700;
-
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: var(--transition);
+    border: 1px solid var(--border-accent);
+    outline: none;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
-
-/*  DR GHADA TEXT */
-    /* Not selected */
-.pa{
-    color: #c7c7c7;
-    font-size: 0px;
-}
- 
-
-/*  DR LOUBNA TEXT */
-    /* Not selected */
-.pan{
-    color: #c7c7c7;
-    font-size: 0px;
+.DRS_text, .Lubna_text {
+    background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-gold-hover) 100%);
+    color: #FFFFFF !important;
+    box-shadow: var(--shadow-gold);
 }
 
-p {
-       color:rgb(114, 89, 25);
+.DRS_text:hover, .Lubna_text:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
 }
 
-
-/* padding for the DRS text names */
-
-.Drs{
-   margin-left: 4vh;
-margin-right: 2vh;
-margin-bottom: 4vh;
-border: solid;
-border-radius: 10%;
-width: 12vmax;
+.DRS_text_other, .Lubna_text_other {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-heading) !important;
 }
 
-
-/* veiw more and less buttons: LOUBNA */
-.Lubna_text_other{
-    color: #c7c7c7;
-    padding-left: 3%;
-    border: none;
-    background-color: #c7c7c7;
+.DRS_text_other:hover, .Lubna_text_other:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
-.Lubna_text{
-    font-size: 3vmax;
-    color: goldenrod;
-        padding-left: 3%;
-        border: none;
-        background-color: #c7c7c7;
-        cursor: pointer;
+
+/* Paragraph Text for Profile Bios */
+.pa, .pan {
+    font-size: 1rem;
+    color: var(--text-body);
+    line-height: 1.7;
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 3px solid var(--primary-gold);
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+/* Animated Bio Container */
+.bio-container {
+    animation: fadeInSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
     }
-/* veiw more and less buttons: GHADA */
-.DRS_text{
-  color: goldenrod;
-  cursor: pointer;
-font-size: 3vmax;
-    padding-left: 3%;
-    border: none;
-    background-color: #c7c7c7;
-}
-.DRS_text_other{
-    color: #c7c7c7;
-        padding-left: 3%;
-        border: none;
-        background-color: #c7c7c7;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
-
-.DRS_text:hover  {
-    color: gold;
 }
-.Lubna_text:hover {
-     color: gold;   
-}
-
-
-/* toggle the veiw more and less: GHADA */
-.toggle_info .DRS_text{
-color: #c7c7c7;
-}
-.toggle_info .DRS_text_other{
-     color: goldenrod;
-    font-size: 3vmax;
-}
-.toggle_info .pa{
-    color: black;
-    font-size: 20px;
-}
-
-/* toggle the veiw more and less: LOUBNA */
-.toggle_info_loubna .Lubna_text{
-    color: #c7c7c7;
-    }
-.toggle_info_loubna .Lubna_text_other{
-          color: goldenrod;
-        font-size: 3vmax;
-    }
-.toggle_info_loubna .pan{
-        color: black;
-        font-size: 20px;
-    }
-    

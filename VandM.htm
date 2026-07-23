@@ -1,129 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vision and Mission of Gloria for International Multidisciplinary Studies (GIMS Journal).">
+    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
+    <title>Vision & Mission | GIMS Journal</title>
+
+    <!-- Global Stylesheets -->
     <link rel="stylesheet" href="styling/main.css">
     <link rel="stylesheet" href="styling/Education.css">
     <link rel="stylesheet" href="styling/styles.css">
     <link rel="stylesheet" href="styling/publication.css"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
-   
-    <title>GloriaAcademy | GIMS Journal </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-   
+    <link rel="stylesheet" href="styling/journal.css">
+    <script src="javascript/theme.js"></script>
 </head>
-<style>
-    .body{
-     background-color: #c7c7c7;
-}
-   .Journal{
-    border-width:-1px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    margin-right: 1vw;
-    border-radius: 7px;
-    font-size: 1.5vi;
-    
-    }
-</style>
 <body class="body">
-    
-    <center>
-      <h9>Be educated so you can change the world...Gloria Academy is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning</h9>
-      
-      <table>
+
+    <!-- Top Sticky Header Navigation -->
+    <header class="site-header">
+        <table class="top-bar-table">
             <tr>
-                <td><img src="photos/mainpagephotos/main upper wht.png" class="mainupper" height="75" alt=""></td>
-           <td>
-             <div >
-         
-        </div>
-        
-        </td>
-         <td> <a href="journal.htm"><button class="Journal">Gloria for International Multidisciplinary Studies (GIMS Journal)</button></a>
-        </td>
-        <td> <a href="aboutus.htm"><button class="contactus">
-            About Us</button></a>
-        </td>
-        <td><div class="dropdown">
-          <button class="contactus">Contact Us </button>  
-                 <div class="dropdown-content">
-                     <a href="#">+96170605396</a>
-                    <a  href="#">gims-journal@gloria-leb.org</a>
-         
-                               
-                
-                             </div>
-               </div></td>
-                     
-                  
-         </td>
+                <td style="width: 20%;">
+                    <a href="index.htm">
+                        <img src="photos/mainpagephotos/main upper wht.png" class="mainupper" alt="Gloria Academy Logo">
+                    </a>
+                </td>
+                <td style="text-align: right; display: flex; align-items: center; justify-content: flex-end; gap: 0.75rem;">
+                    <a href="index.htm">
+                        <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <button class="contactus">🏠 Home</button>
+                    </a>
+                    <a href="journal.htm">
+                        <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <button class="Journal">📖 GIMS Journal</button>
+                    </a>
+                    <div class="dropdown">
+                        <button class="contactus">Contact Us</button>  
+                        <div class="dropdown-content">
+                            <a href="tel:+96170605396">📞 +961 70 605 396</a>
+                            <a href="mailto:gims-journal@gloria-leb.org">✉️ gims-journal@gloria-leb.org</a>
+                        </div>
+                    </div>
+                </td>
             </tr>
         </table>
-    
-            <br>
-        <br>
-        <br>
+    </header>
 
-   
-
- 
-   <div class="row1">
-           <div class="dropdown">
-                <a href="CCL.htm"><button  class="dropbtn">Creative Commons License</button></a>  
+    <!-- Journal Navigation Bar -->
+    <nav class="row1" aria-label="Journal Navigation">
+        <div class="dropdown">
+            <a href="CCL.htm" style="text-decoration: none;"><button class="dropbtn">Creative Commons License</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Aims.htm"><button  class="dropbtn">Aims</button></a>  
+        <div class="dropdown">
+            <a href="Aims.htm" style="text-decoration: none;"><button class="dropbtn">Aims</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="VandM.htm"><button  class="dropbtn">Vission and Mission</button></a>  
+        <div class="dropdown">
+            <a href="VandM.htm" style="text-decoration: none;"><button class="dropbtn">Vision & Mission</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Services.htm"><button  class="dropbtn">Services</button></a>  
+        <div class="dropdown">
+            <a href="Services.htm" style="text-decoration: none;"><button class="dropbtn">Services</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Editorialboard.htm"><button  class="dropbtn">Editorial Board</button></a>  
+        <div class="dropdown">
+            <a href="Editorialboard.htm" style="text-decoration: none;"><button class="dropbtn">Editorial Board</button></a>  
         </div>  
-         <div class="dropdown">
-                <button  class="dropbtn">Publication Guidelines</button>
-                 <div class="dropdown-content">
-                    <a href="PublicationConditions.htm">Publication Conditions</a>
-                    <a href="PublicationFees.htm">Publication Fees Template</a>
-                    </div>
+        <div class="dropdown">
+            <button class="dropbtn">Publication Guidelines</button>
+            <div class="dropdown-content">
+                <a href="PublicationConditions.htm">Publication Conditions</a>
+                <a href="PublicationFees.htm">Publication Fees Template</a>
+            </div>
         </div>  
-         <div class="dropdown">
-                <a href="Publications.htm"><button  class="dropbtn">Publications</button></a>  
+        <div class="dropdown">
+            <a href="Publications.htm" style="text-decoration: none;"><button class="dropbtn">Publications</button></a>  
         </div>           
-         
+    </nav>
 
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <section style="text-align: center; margin-bottom: 3rem;">
+            <span style="display: inline-block; background: rgba(245, 158, 11, 0.15); color: var(--primary-gold); font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1.2rem; border-radius: var(--radius-full); margin-bottom: 1rem; border: 1px solid var(--border-accent);">
+                Institutional Foundation
+            </span>
+            <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Vision & Mission</h1>
+        </section>
 
+        <!-- Vision & Mission Card -->
+        <section class="card" style="padding: 2.5rem; max-width: 900px; margin: 0 auto;">
+            <h2 style="color: var(--primary-gold); margin-top: 0;">Our Commitment to Academic Excellence</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+                Editors seek to choose the best theoretical and practical scientific research and studies that conform to international scientific standards as well as those that are characterized by excellence and originality.
+            </p>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+                Based on this, GIMS publications aim to share high quality research after being peer-reviewed. This is done directly or indirectly to expand prospects, knowledge, and skills to meet contemporary global challenges by creating a robust database of research and multidisciplinary studies.
+            </p>
+        </section>
+    </main>
 
-
-    </div>
-                </center>
-
-       <br>
-    <hr>
-
-    <center>
-            <h6>Vission and Mission</h6> 
-         <p>
-            Editors seek to choose the best theoretical and practical scientific research and studies that conform to international scientific standards as well as those that are characterized by excellence and originality. Based on this, the publications aim to share high quality research after being peer reviewed. This is done directly or indirectly to expand the prospects, knowledge and skills to meet all the contemporary challenges by creating a database of research and studies.
-         </p>
-        
-        
-    </center>
-         
-
-
-               
-         
-     
-
+    <!-- Professional Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <img src="photos/mainpagephotos/main upper wht.png" alt="Gloria Academy" style="height: 40px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+                    Gloria International Multidisciplinary Studies (GIMS Journal)
+                </p>
+            </div>
+            <div>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+                    © 2026 GIMS Journal. All rights reserved. | <a href="CCL.htm" style="color: var(--primary-gold); text-decoration: none;">Creative Commons License</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

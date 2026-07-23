@@ -1,69 +1,70 @@
+/* Modern Arbitration & Legal Course Styling */
 
-/* Box titles */
-.link{
-    text-decoration: none;
-    color: #000;
-}
-/* Box containers  */
-.container{
+.container {
     display: flex;
-    height: 20vh;
-    width: 40vw;
+    flex-direction: column;
+    min-height: 180px;
+    width: 100%;
+    max-width: 500px;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    padding-left: 10vw;
-    border-style: solid;
-    padding-right: 10vw;
-    margin-right: 5px;
+    padding: 2rem;
+    background: var(--bg-surface-elevated);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    margin: 1rem auto;
 }
-/* links for the courses after you click the boxes */
-.course_links{
+
+.container:hover {
+    border-color: var(--primary-gold);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg), var(--shadow-gold);
+}
+
+.link, .course_links {
     text-decoration: none;
-    color: #000;
-    font-size: 19px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: var(--text-heading);
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: var(--transition);
     text-align: center;
-    max-width: 300px;
 }
 
-h6{
-    color: rgb(189, 137, 6);
-    font-size: 150%;
-    padding-left: 5vw;
+.link:hover, .course_links:hover {
+    color: var(--primary-gold);
 }
 
-/* buttons for swapping pages */
-.button_nav{
+.button_nav, .button_nav_same {
     border: none;
-    border-radius: 7px;
-    background-color: red;
-    font-size: 15px;
-    color: white;
-    padding: 2%;
-    margin: 3px;
-    box-shadow: 0 0 40px black;
-}
-.button_nav:hover{
-    border: none;
-    border-radius: 7px;
-    background-color: rgb(71, 215, 39);
-    font-size: 15px;
-    color: white;
-    padding: 2%;
-    margin: 3px;
-    box-shadow: 0 0 40px black;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #FFFFFF !important;
+    padding: 0.75rem 1.5rem;
+    margin: 0.4rem;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-.button_nav_same{
-    border: none;
-    border-radius: 7px;
-    background-color: green;
-    font-size: 15px;
-    color: white;
-    padding: 2%;
-    margin: 3px;
-    box-shadow: 0 0 40px black;
+.button_nav {
+    background: linear-gradient(135deg, var(--bg-surface-elevated) 0%, #374151 100%);
+    border: 1px solid var(--border-subtle);
+}
+
+.button_nav:hover {
+    background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-gold-hover) 100%);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-gold);
+}
+
+.button_nav_same {
+    background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-gold-hover) 100%);
+    box-shadow: var(--shadow-gold);
 }

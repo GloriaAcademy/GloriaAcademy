@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About Us - Gloria Academy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Gloria Academy - Leadership, Passion, Innovation & Multidisciplinary Academic Vision.">
+    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
+    <title>About Us | Gloria Academy Leadership & Mission</title>
+
+    <!-- Global Stylesheets & Scripts -->
     <link rel="stylesheet" href="styling/main.css">
     <link rel="stylesheet" href="styling/aboutus.css">
     <link rel="stylesheet" href="styling/styles.css">
     <link rel="stylesheet" href="styling/contact.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
-  
-  
+    <script src="javascript/theme.js"></script>
 </head>
-<body>
-    <center>
-        <a   href="index.htm"><button class="menu_buttons">Home</button></a>
-             
- 
-    </center>
-<br>
+<body class="body">
 
-            <div class="dv">
-                  <img src="photos/mainpagephotos/main upper wht.png" class="aboutus" alt="" srcset="">
+    <!-- Top Sticky Header Navigation -->
+    <header class="site-header">
+        <table class="top-bar-table">
+            <tr>
+                <td style="width: 20%;">
+                    <a href="index.htm">
+                        <img src="photos/mainpagephotos/main upper wht.png" class="mainupper" alt="Gloria Academy Logo">
+                    </a>
+                </td>
+                <td style="text-align: right; display: flex; align-items: center; justify-content: flex-end; gap: 0.75rem;">
+                    <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <a href="index.htm">
+                        <button class="contactus">🏠 Home</button>
+                    </a>
+                    <a href="journal.htm">
+                        <button class="Journal">📖 GIMS Journal</button>
+                    </a>
+                    <div class="dropdown">
+                        <button class="contactus">Contact Us</button>  
+                        <div class="dropdown-content">
+                            <a href="tel:+96170605396">📞 +961 70 605 396</a>
+                            <a href="mailto:gims-journal@gloria-leb.org">✉️ gims-journal@gloria-leb.org</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-                  <button class="about_us_title">Gloria Academy</button>
-              
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <!-- Hero Header -->
+        <section class="dv">
+            <img src="photos/mainpagephotos/main upper wht.png" class="aboutus" alt="Gloria Academy Banner">
+            <div class="about_us_title">About Gloria Academy</div>
+        </section>
 
+        <!-- Institutional Overview Card -->
+        <section class="card" style="margin-bottom: 3rem; padding: 2.5rem;">
+            <h2 style="color: var(--primary-gold); margin-top: 0;">Passion & Academic Innovation</h2>
+            <p>
+                <strong>Gloria Academy</strong> is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning (CALL), differentiated cooperative learning (CL), intercultural communication, and neuroscience-based cognitive structures.
+            </p>
+            <p>
+                You have probably heard of some popular digital multimodal composing (DMC), innovative, cooperative learning, and intercultural communication structures including differentiated KUD, KWL, DMC, Paideia Seminars, Literature Circles, Targeted Doodling, Play Circles, Third Space, TSLC, Blogging-based DMC, WebQuest-based DMC, Online-Poster-based DMC, Wiki-based DMC, and Neuroscience-based information processing.
+            </p>
+            <p>
+                Gloria structures make every learner a critical thinker. Learners engage actively in critical thinking alongside their educators. The more learners interact and communicate with their peers and curriculum, the deeper they achieve. Gloria structures bridge achievement gaps, stimulate critical thinking, and facilitate neuroscience-based learning to reach every student.
+            </p>
+        </section>
+
+        <!-- Leadership & Team Section -->
+        <section style="margin-top: 3rem;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <span style="display: inline-block; background: rgba(245, 158, 11, 0.15); color: var(--primary-gold); font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1.2rem; border-radius: var(--radius-full); margin-bottom: 0.5rem; border: 1px solid var(--border-accent);">
+                    Academic Leadership
+                </span>
+                <h2 style="font-size: 2rem; color: var(--text-heading); margin: 0;">Our Executive Leadership & Faculty</h2>
+            </div>
+
+            <!-- Profile 1: Dr. Ghada M. Awada -->
+            <div class="team-card">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+                    <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+                        <img class="Drs" src="photos/other/Dr.GhADA M. Awada.jpeg" alt="Dr. Ghada M. Awada">
+                        <div>
+                            <h3 style="color: var(--primary-gold); margin: 0 0 0.5rem 0; font-size: 1.6rem;">Dr. Ghada M. Awada</h3>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0;">International Arbitrator & Fulbright Scholar</p>
+                        </div>
+                    </div>
+                    <button onclick="toggleBio('bio-ghada', this)" class="DRS_text" aria-expanded="false">📖 View Full Biography</button>
+                </div>
+                <div id="bio-ghada" class="bio-container" style="display: none; margin-top: 1.5rem;">
+                    <p class="pa">Dr. Ghada M. Awada - International Arbitrator and Fulbright Scholar at North Carolina State University (NCSU-2016). First female recipient of the American University of Beirut (AUB) Excellence Service Award (2018) and recipient of Lebanese American University (LAU)-CEP excellence award (2014).</p>
+                    <p class="pa">Holder of a Ph.D. in English and Applied Linguistics and a Ph.D. in Public International Law and International Relations and Diplomacy. UNESCO and World Bank consultant, and Developer of AUB Arbitration certificate program and LAU English for Lawyers programs.</p>
+                    <p class="pa">Author of numerous publications on arbitration, legal reform, human rights education, global citizenship, intercultural communication, peace education, disarmament, and counter-terrorism policies.</p>
+                </div>
+            </div>
+
+            <!-- Profile 2: Dr. Loubna Nehme -->
+            <div class="team-card">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+                    <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+                        <img class="Drs" src="photos/other/DrLoubna.jpg" alt="Dr. Loubna Nehme">
+                        <div>
+                            <h3 style="color: var(--primary-gold); margin: 0 0 0.5rem 0; font-size: 1.6rem;">Dr. Loubna Nehme</h3>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0;">Head of English Dept, CRDP & Curriculum Specialist</p>
+                        </div>
+                    </div>
+                    <button onclick="toggleBio('bio-loubna', this)" class="Lubna_text" aria-expanded="false">📖 View Full Biography</button>
+                </div>
+                <div id="bio-loubna" class="bio-container" style="display: none; margin-top: 1.5rem;">
+                    <p class="pan">• Head of the English Department at the Center for Educational Research and Development (CRDP)</p>
+                    <p class="pan">• Member of the Lebanese Curriculum Development Committee</p>
+                    <p class="pan">• Instructor at the Lebanese University and Beirut Arab University (BAU)</p>
+                    <p class="pan">• Instructor at the Continuing Education Center (CEC) - AUB</p>  
+                    <p class="pan">• Fulbrighter and participant in national & international academic conferences</p>  
+                    <p class="pan">• Former ambassador and trainer on behalf of the British Council (3 British Council Awards recipient)</p>
+                    <p class="pan">• ICT trainer, producer, coordinator, and quality controller of digital educational resources</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Site Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <img src="photos/mainpagephotos/main upper wht.png" alt="Gloria Academy" style="height: 40px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+                    Gloria Academy & Gloria International Multidisciplinary Studies
+                </p>
+            </div>
+            <div>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+                    © 2026 Gloria Academy. All rights reserved. | <a href="CCL.htm" style="color: var(--primary-gold); text-decoration: none;">Creative Commons License</a>
+                </p>
+            </div>
         </div>
-     <br>
-   
-<p><b>Gloria Academy</b> is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning (CALL), differentiated cooperative learning (CL), intercultural communication, and neuroscience-based cognitive Structures. You have probably heard of some popular digital multimodal composing (DMC), innovative, cooperative learning, and intercultural communication Structures including differentiated KUD, KWL, DMC, Paideia Seminars, Literature Circles, Targeted Doodling, Play Circles, Third Space, TSLC, Blogging-based DMC, WebQuest-based DMC, Online-Poster-based DMC, Wiki-based DMC, and Neuroscience-based information processing. Gloria Structures, and many more, are now utilized world-wide in all academic subject areas to boost student innovation, creativity, and learning. Gloria Structures produce innovative outcomes. Teachers, schools, and institutions now use Gloria Structures to increase academic achievement and workplace job opportunities, improve critical thinking skills, boost self-esteem, create a healthy classroom climate, decrease discipline problems, and promote learners' intercultural communication skills and character development.</p>
-<br>
-<br>
-<br>
-<br>
-<p>
-    Gloria Structures make every learner a critical thinker. In the traditional classroom, the teacher is the only critical thinker who works very hard. At Gloria, both teachers and students engage in the critical thinking process. Learners need to work at least as hard as their teachers. The more learners interact and communicate with their peers and with the curriculum, the more they will learn. Gloria Structures bridge the achievement gap by creating learning opportunities for struggling students. Gloria Structures stimulate critical thinking and facilitate the neuroscience-based tasks to reach and teach all students.
-</p>
-<p>CALL and CL Structures yield engagement, interaction, and innovation which are why students report they like school, teachers, books and feel better about themselves. Engagement is the only remedy for stopping bullying in classrooms as it gets straight to the cause of the problem in many classrooms.
-</p>
-<p>
-    Gloria Academy has the practical tools to help teachers to share their thoughts and innovative ideas with the entire world. The power of Gloria courses, workshops and teaching certificates is that they synthesize the best of practices and research to provide very clear, easy-to-use teaching strategies. Novice, good and excellent teachers join Gloria Publishing and Education Academy.
-</p>
-<br>
-<p><b> OUR TEAM</b></p>
-<br>
+    </footer>
 
-
-<table>
-    <tr>
-        <td><img class="Drs"  src="photos/other/Dr.GhADA M. Awada.jpeg">
-        </td>
-       <td> <table>
-            <h3 >Dr. Ghada M. Awada</h3>
-            <button onclick="toggle_info()" class="DRS_text_other" >View Less</button>
-            <button onclick="toggle_info()" class="DRS_text" >View More</button>
-        </table></td>
-       
-    </tr>
-</table>
-<p class="pa">Dr. Ghada M. Awada-An international Arbitrator and a Fulbright Scholar at North Carolina State University (NCSU-2016). The first female recipient of the American University of Beirut (AUB) Excellence Service Award (2018) and the recipient of Lebanese American University (LAU)-CEP excellence award (2014).</p>
-<p class="pa">A holder of a Ph.D. in English and Applied Linguistics and a Ph.D. in Public International Law and International Relations and Diplomacy. UNESCO and World Bank consultant and Developer of AUB Arbitration certificate program and of LAU English for Lawyers programs.</p>
-<p class="pa">An author of several publications related to arbitration, reform, human rights education, global citizenship, intercultural communication, peace education, disarmament, and counter terrorism policies.</p>
-<br>
-<br>
-             
-
-
-  <table>
-    <tr>
-        <td> <img class="Drs"  src="photos/other/DrLoubna.jpg">
-
-        </td>
-       <td> <table>
-        
-            <h3 >Dr. Loubna Nehme</h3>
-            <button onclick="toggle_info_loubna()" class="Lubna_text_other" href="Ghada_awada.html">View Less</button>
-            <button onclick="toggle_info_loubna()" class="Lubna_text" href="Ghada_awada.html">View More</button>
-
-    </table></td>
-       
-    </tr>
-</table>
-
- 
-<p class="pan">• Head of the English Department at the Center for Educational Research and Development (CRDP)</p>
-<p class="pan">• Member of the Lebanese Curriculum Development Committee</p>
-<p class="pan">• Instructor at the Lebanese University and at Beirut Arab University (BAU)</p>
-<p class="pan">• Instructor at the Continuing Education Center (CEC) - AUB</p>  
-<p class="pan">• Fulbrighter who participated in many local, national and international conferences</p>  
-<p class="pan">• Former teacher, coordinator, and teacher trainer</p>
-<p class="pan">• Former ambassador and trainer on behalf of the British Council</p>
-<p class="pan">• ICT trainer</p> 
-<p class="pan">• Producer, coordinator and quality controller of digital resources</p>
-<p class="pan">• Participant in several community service projects </p>
-<p class="pan">granted 3 awards from the British Council</p>
-<p class="pan">has research interests in the areas of curriculum design, education, linguistics, language teaching and learning through social networking sites, and different language skills and sub-skills</p>
-
-  <script>function toggle_info() {
-        document.body.classList.toggle("toggle_info");
-        
-    }
-    function toggle_info_loubna() {
-        document.body.classList.toggle("toggle_info_loubna");
-        
-    }
-    
+    <!-- Interactive Biography Script -->
+    <script>
+        function toggleBio(bioId, btn) {
+            const bio = document.getElementById(bioId);
+            if (!bio) return;
+            const isHidden = bio.style.display === 'none' || bio.style.display === '';
+            if (isHidden) {
+                bio.style.display = 'block';
+                btn.innerHTML = '🙈 Hide Biography';
+                btn.setAttribute('aria-expanded', 'true');
+            } else {
+                bio.style.display = 'none';
+                btn.innerHTML = '📖 View Full Biography';
+                btn.setAttribute('aria-expanded', 'false');
+            }
+        }
     </script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
 </body>
 </html>
-
-
-

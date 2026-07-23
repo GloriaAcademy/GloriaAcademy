@@ -1,127 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Publication Fees Template for GIMS Journal.">
+    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
+    <title>Publication Fees | GIMS Journal</title>
+
+    <!-- Global Stylesheets -->
     <link rel="stylesheet" href="styling/main.css">
     <link rel="stylesheet" href="styling/Education.css">
     <link rel="stylesheet" href="styling/styles.css">
     <link rel="stylesheet" href="styling/publication.css"> 
     <link rel="stylesheet" href="styling/journal.css">
-    <link rel="icon" type="image/png" href="photos/soora1.png" sizes="100x100">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GloriaAcademy | GIMS journal</title>
+    <script src="javascript/theme.js"></script>
 </head>
-<style>
+<body class="body">
 
-    h6 {
-        font-size: 4vmax;
-        margin-left: 1vw;
-    }
-   
-
-    p {
-        font-size: 25px;
-        line-height: 40px;
-    }
-    
-   .Journal{
-    border-width:-1px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    margin-right: 1vw;
-    border-radius: 7px;
-    font-size: 1.5vi;
-    
-    }
-</style>
-<body>
-    <body class="body">
-    <center>
-
-      <h9>Be educated so you can change the world...Gloria Academy is all about passion and innovation! Key to most Gloria publications and workshops are computer assisted language learning</h9>
-      
-      <table>
+    <!-- Top Sticky Header Navigation -->
+    <header class="site-header">
+        <table class="top-bar-table">
             <tr>
-                <td><img src="photos/mainpagephotos/main upper wht.png" class="mainupper" height="75" alt=""></td>
-           <td>
-             <div >
-           
-        </div>
-        
-        </td>
-         <td> <a href="journal.htm"><button class="Journal">Gloria for International Multidisciplinary Studies (GIMS Journal)</button></a>
-        </td>
-        <td> <a href="aboutus.htm"><button class="contactus">
-            About Us</button></a>
-        </td>
-        <td><div class="dropdown">
-          <button class="contactus">Contact Us </button>  
-                 <div class="dropdown-content">
-                     <a href="#">+96170605396</a>
-                    <a  href="#">gims-journal@gloria-leb.org</a>
-         
-                               
-                
-                             </div>
-               </div></td>
-                     
-                  
-         </td>
+                <td style="width: 20%;">
+                    <a href="index.htm">
+                        <img src="photos/mainpagephotos/main upper wht.png" class="mainupper" alt="Gloria Academy Logo">
+                    </a>
+                </td>
+                <td style="text-align: right; display: flex; align-items: center; justify-content: flex-end; gap: 0.75rem;">
+                    <a href="index.htm">
+                        <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <button class="contactus">🏠 Home</button>
+                    </a>
+                    <a href="journal.htm">
+                        <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+                    <button class="Journal">📖 GIMS Journal</button>
+                    </a>
+                    <div class="dropdown">
+                        <button class="contactus">Contact Us</button>  
+                        <div class="dropdown-content">
+                            <a href="tel:+96170605396">📞 +961 70 605 396</a>
+                            <a href="mailto:gims-journal@gloria-leb.org">✉️ gims-journal@gloria-leb.org</a>
+                        </div>
+                    </div>
+                </td>
             </tr>
         </table>
-    
-            <br>
-        <br>
-        <br>
+    </header>
 
-
- 
-   <div class="row1">
-           <div class="dropdown">
-                <a href="CCL.htm"><button  class="dropbtn">Creative Commons License</button></a>  
+    <!-- Journal Navigation Bar -->
+    <nav class="row1" aria-label="Journal Navigation">
+        <div class="dropdown">
+            <a href="CCL.htm" style="text-decoration: none;"><button class="dropbtn">Creative Commons License</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Aims.htm"><button  class="dropbtn">Aims</button></a>  
+        <div class="dropdown">
+            <a href="Aims.htm" style="text-decoration: none;"><button class="dropbtn">Aims</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="VandM.htm"><button  class="dropbtn">Vission and Mission</button></a>  
+        <div class="dropdown">
+            <a href="VandM.htm" style="text-decoration: none;"><button class="dropbtn">Vision & Mission</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Services.htm"><button  class="dropbtn">Services</button></a>  
+        <div class="dropdown">
+            <a href="Services.htm" style="text-decoration: none;"><button class="dropbtn">Services</button></a>  
         </div>  
-         <div class="dropdown">
-                <a href="Editorialboard.htm"><button  class="dropbtn">Editorial Board</button></a>  
+        <div class="dropdown">
+            <a href="Editorialboard.htm" style="text-decoration: none;"><button class="dropbtn">Editorial Board</button></a>  
         </div>  
-         <div class="dropdown">
-            <button  class="dropbtn">Publication Guidelines</button>
-                 <div class="dropdown-content">
-                    <a href="PublicationConditions.htm">Publication Conditions</a>
-                    <a href="PublicationFees.htm">Publication Fees Template</a>
-                    </div>
+        <div class="dropdown">
+            <button class="dropbtn">Publication Guidelines</button>
+            <div class="dropdown-content">
+                <a href="PublicationConditions.htm">Publication Conditions</a>
+                <a href="PublicationFees.htm">Publication Fees Template</a>
+            </div>
         </div>  
-         <div class="dropdown">
-                <a href="Publications.htm"><button  class="dropbtn">Publications</button></a>  
+        <div class="dropdown">
+            <a href="Publications.htm" style="text-decoration: none;"><button class="dropbtn">Publications</button></a>  
         </div>           
-         
- 
+    </nav>
 
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <section style="text-align: center; margin-bottom: 3rem;">
+            <span style="display: inline-block; background: rgba(245, 158, 11, 0.15); color: var(--primary-gold); font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1.2rem; border-radius: var(--radius-full); margin-bottom: 1rem; border: 1px solid var(--border-accent);">
+                Article Processing Charges
+            </span>
+            <h1 style="font-size: 2.2rem; margin-bottom: 1rem;">Publication Fees Schedule</h1>
+            <p style="text-align: center; margin: 0 auto; max-width: 800px;">
+                Publication fees are payable after successful peer review and prior to official publication.
+            </p>
+        </section>
 
-    </div>
-    </center>
-        <hr>
-    <br>
-    <h6>Publication Fees Template</h6>
+        <!-- Pricing Grid Cards -->
+        <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
 
-  
-<center>
+            <!-- Tier 1: Domestic Lebanon -->
+            <div class="card" style="padding: 2rem; text-align: center;">
+                <h3 style="color: var(--primary-gold); margin: 0 0 0.5rem 0;">Domestic Authors</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Submissions inside Lebanon</p>
+                <div style="font-size: 2.5rem; font-weight: 800; color: #FFFFFF; margin: 1rem 0;">$90</div>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Standard publication processing</p>
+            </div>
 
+            <!-- Tier 2: International -->
+            <div class="card" style="padding: 2rem; text-align: center; border-color: var(--primary-gold); box-shadow: var(--shadow-gold);">
+                <span style="background: var(--primary-gold); color: #000; font-size: 0.75rem; font-weight: 800; padding: 0.2rem 0.6rem; border-radius: var(--radius-full);">INTERNATIONAL</span>
+                <h3 style="color: var(--primary-gold); margin: 0.5rem 0;">International Authors</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Submissions outside Lebanon</p>
+                <div style="font-size: 2.5rem; font-weight: 800; color: #FFFFFF; margin: 1rem 0;">$150</div>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Full peer-review & open access indexing</p>
+            </div>
 
-    <p>The researcher pays the publication fee after peer reviewing and before publication. The fee is 90$ for papers sent from inside Lebanon and 150$ for papers received from outside Lebanon. Due to the economic crisis, the fee for Lebanese students exclusively is 70$. 3-5 days to get peer review results using the fast track will cost authors 100$. Authors who would like to publish papers that exceed 8,000 words need to pay an extra amount of money, depending on the number of extra words.</p>
-</center>
-    
+            <!-- Tier 3: Student Grant -->
+            <div class="card" style="padding: 2rem; text-align: center;">
+                <h3 style="color: var(--accent-indigo); margin: 0 0 0.5rem 0;">Lebanese Students</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Student grant discount</p>
+                <div style="font-size: 2.5rem; font-weight: 800; color: #FFFFFF; margin: 1rem 0;">$70</div>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Special student relief support rate</p>
+            </div>
+
+            <!-- Tier 4: Fast-Track Review -->
+            <div class="card" style="padding: 2rem; text-align: center;">
+                <h3 style="color: var(--accent-blue); margin: 0 0 0.5rem 0;">Fast-Track Review</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Accelerated 3–5 day review</p>
+                <div style="font-size: 2.5rem; font-weight: 800; color: #FFFFFF; margin: 1rem 0;">+$100</div>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Rapid evaluation turnaround</p>
+            </div>
+
+        </section>
+
+        <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+            * Papers exceeding 8,000 words incur an incremental fee depending on additional word count.
+        </p>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <img src="photos/mainpagephotos/main upper wht.png" alt="Gloria Academy" style="height: 40px; margin-bottom: 0.5rem;">
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+                    Gloria International Multidisciplinary Studies (GIMS Journal)
+                </p>
+            </div>
+            <div>
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+                    © 2026 GIMS Journal. All rights reserved. | <a href="CCL.htm" style="color: var(--primary-gold); text-decoration: none;">Creative Commons License</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
-
