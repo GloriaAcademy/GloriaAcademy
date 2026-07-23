@@ -1,107 +1,183 @@
-/* Modern Responsive Styles & Breakpoint Enhancements for Gloria Academy */
+/* Modern Universal Responsive Design System for Gloria Academy & GIMS Journal */
 
-/* Desktop & Widescreen Display (min-width: 1024px) */
+/* Global Viewport Guard */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, video, iframe, embed, object, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fluid Typography Clamping */
+h1 { font-size: clamp(1.6rem, 4vw, 2.5rem); line-height: 1.25; }
+h2 { font-size: clamp(1.3rem, 3.5vw, 2.0rem); line-height: 1.3; }
+h3 { font-size: clamp(1.1rem, 2.8vw, 1.6rem); line-height: 1.35; }
+h4 { font-size: clamp(1.05rem, 2.4vw, 1.35rem); }
+h5 { font-size: clamp(1.3rem, 3.8vw, 2.2rem); line-height: 1.3; }
+p  { font-size: clamp(0.95rem, 1.8vw, 1.1rem); line-height: 1.65; }
+
+/* -------------------------------------------------------------
+   Desktop & Widescreen Displays (>1024px)
+   ------------------------------------------------------------- */
 @media screen and (min-width: 1024px) {
     .container, .main-content {
         padding: 3rem 4rem;
+        max-width: 1300px;
+        margin: 0 auto;
     }
 
     .row1 {
         justify-content: center;
-        gap: 1.5rem;
+        gap: 1.25rem;
     }
 
     .ghada_text {
+        display: flex;
         flex-direction: row;
-        gap: 3rem;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3.5rem;
         text-align: left;
+        padding: 2.5rem;
+    }
+
+    .ghada_text > div:first-child {
+        flex: 1.2;
+    }
+
+    .ghada_text > div:last-child {
+        flex: 0.8;
     }
 
     .ghada {
-        max-width: 450px;
+        max-width: 440px;
+        width: 100%;
     }
 
-    .Cover_button {
-        padding: 2rem 3rem;
-        font-size: 1.5rem;
-        background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
-        border-radius: var(--radius-lg);
-        color: #FFFFFF;
-        box-shadow: var(--shadow-gold);
-        transition: var(--transition);
-    }
-
-    .Cover_button:hover {
-        transform: translateY(-4px) scale(1.02);
-        box-shadow: 0 12px 30px rgba(245, 158, 11, 0.4);
+    .search-container {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        max-width: 650px;
+        margin: 0 auto;
     }
 }
 
-/* Tablet Displays (768px to 1023px) */
+/* -------------------------------------------------------------
+   Tablet & Medium Displays (768px to 1023px)
+   ------------------------------------------------------------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container, .main-content {
+        padding: 2rem 2rem;
+    }
+
     .top-bar-table, table:first-of-type {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        width: 100%;
+    }
+
+    .top-bar-table td, table:first-of-type td {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        flex-wrap: wrap;
+        gap: 0.5rem;
     }
 
     .row1 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 0.75rem;
+        padding: 0.75rem 1rem;
     }
 
     .ghada_text {
-        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem 1.5rem;
     }
 
     .ghada {
-        max-width: 320px;
+        max-width: 380px;
+        margin: 0 auto;
     }
 
-    h5 {
-        font-size: 1.8rem;
+    .search-container {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        max-width: 550px;
+        margin: 0 auto;
     }
 }
 
-/* Mobile Devices (max-width: 767px) */
+/* -------------------------------------------------------------
+   Mobile Phones & Small Devices (<767px)
+   ------------------------------------------------------------- */
 @media screen and (max-width: 767px) {
     header, .site-header {
-        padding: 0.75rem 1rem;
+        padding: 0.75rem 0.75rem;
     }
 
     .top-bar-table, table:first-of-type {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         gap: 0.75rem;
     }
 
-    .top-bar-table td, table:first-of-type td {
-        display: block;
-        width: 100%;
-        text-align: center;
+    .top-bar-table tbody, .top-bar-table tr, .top-bar-table td,
+    table:first-of-type tbody, table:first-of-type tr, table:first-of-type td {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .top-bar-table td:last-child {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem !important;
+        width: 100% !important;
     }
 
     .mainupper {
-        height: 50px;
+        max-height: 48px;
+        width: auto;
         margin: 0 auto;
     }
 
-    .Journal, .contactus {
+    .Journal, .contactus, .theme-toggle-btn {
         width: 100%;
-        font-size: 0.85rem;
-        padding: 0.65rem 1rem;
-        margin: 0.25rem 0;
+        min-height: 44px;
+        font-size: 0.9rem;
+        padding: 0.75rem 1rem;
+        margin: 0.15rem 0;
         justify-content: center;
+        text-align: center;
     }
 
+    /* Vertical Accordion Navigation on Mobile */
     .row1 {
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 0.75rem;
+        padding: 0.5rem 0.75rem;
         gap: 0.5rem;
     }
 
@@ -111,51 +187,123 @@
 
     .dropbtn {
         width: 100%;
+        min-height: 44px;
         font-size: 0.95rem;
         padding: 0.75rem 1rem;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: var(--radius-md);
         justify-content: space-between;
     }
 
     .dropdown-content {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        background: rgba(17, 24, 39, 0.95);
-        border: 1px solid var(--border-subtle);
+        position: static !important;
+        width: 100% !important;
+        box-shadow: none !important;
         border-radius: var(--radius-md);
         margin-top: 0.25rem;
     }
 
     .submenu_lst {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        margin-left: 0;
-        background: rgba(31, 41, 55, 0.95);
+        position: static !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        margin-left: 0 !important;
+        border-radius: var(--radius-md);
+    }
+
+    .submenu_lst::before, .dropdown-content::before {
+        display: none !important;
+    }
+
+    /* Main Container & Hero Spacing */
+    .container, .main-content {
+        padding: 1.25rem 0.75rem;
     }
 
     .ghada_text {
-        padding: 1.5rem 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1.5rem 0.75rem;
+        text-align: center;
+        gap: 1.5rem;
     }
 
     .ghada {
         max-width: 100%;
         height: auto;
+        border-radius: var(--radius-md);
     }
 
-    h5 {
-        font-size: 1.4rem;
-        line-height: 1.4;
+    /* Search Form Stack on Mobile */
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
     }
 
-    p {
-        font-size: 0.98rem;
-        padding-left: 0;
+    .type, input[type="text"], input[type="search"] {
+        width: 100% !important;
+        min-height: 44px;
+        font-size: 0.95rem;
     }
 
-    #pdfexpress, #pdf {
-        min-height: 60vh;
+    .submit {
+        width: 100% !important;
+        min-height: 44px;
+        justify-content: center;
+    }
+
+    /* Table Responsiveness Override */
+    table:not(.top-bar-table) {
+        display: block !important;
+        width: 100% !important;
+        overflow-x: auto;
+        white-space: normal;
+    }
+
+    table:not(.top-bar-table) tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    table:not(.top-bar-table) td, table:not(.top-bar-table) th {
+        display: block;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    /* PDF Viewer Embeds on Mobile */
+    #pdfexpress, #pdf, iframe {
+        min-height: 55vh !important;
+        width: 100% !important;
+    }
+
+    /* Team Cards & Grid Cards on Mobile */
+    .team-card, .card {
+        padding: 1.25rem !important;
+        margin: 1rem 0 !important;
+    }
+
+    .team-card > div {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .Drs {
+        margin: 0 auto 1rem auto !important;
+    }
+}
+
+/* Extra Small Screens (<380px) */
+@media screen and (max-width: 380px) {
+    .site-header {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .Journal, .contactus, .theme-toggle-btn, .dropbtn {
+        font-size: 0.82rem;
+        padding: 0.6rem 0.75rem;
     }
 }
