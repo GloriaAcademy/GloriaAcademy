@@ -63,11 +63,58 @@
 }
 
 .user-cards .card > .body {
+    font-family: var(--font-sans);
     font-size: 0.95rem;
-    color: var(--text-body);
+    color: var(--text-muted);
     line-height: 1.6;
+}
+
+/* Light Theme Overrides for Search */
+html[data-theme="light"] #search {
+    background: #FFFFFF !important;
+    color: #111827 !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+html[data-theme="light"] #search::placeholder {
+    color: #6B7280 !important;
+}
+
+html[data-theme="light"] .user-cards .card {
+    background: #FFFFFF !important;
+    border-color: rgba(0, 0, 0, 0.12) !important;
+    color: #1F2937 !important;
 }
 
 .hide {
     display: none !important;
+}
+
+/* Optimal Mobile & Tablet Responsiveness for Workshops */
+@media screen and (max-width: 640px) {
+    .search-wrapper {
+        margin: 1.5rem auto !important;
+        width: 100% !important;
+    }
+
+    #search {
+        padding: 0.85rem 1rem !important;
+        font-size: 0.95rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .user-cards {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        margin-top: 1.5rem !important;
+        width: 100% !important;
+    }
+
+    .user-cards .card {
+        padding: 1.25rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
 }

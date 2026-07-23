@@ -115,25 +115,46 @@ header, .site-header {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-subtle);
-    padding: 0.75rem 2rem;
+    padding: 0.6rem 1.5rem;
     transition: var(--transition);
 }
 
-.top-bar-table, table:first-of-type {
+.header-container, .top-bar-table {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1300px;
     margin: 0 auto;
-    border-collapse: collapse;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1rem;
 }
 
-.top-bar-table td, table:first-of-type td {
-    padding: 0.5rem;
-    vertical-align: middle;
+.top-bar-table tbody, .top-bar-table tr {
+    display: contents;
+}
+
+.header-logo, .top-bar-table td:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-center, .top-bar-table td:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-actions, .top-bar-table td:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
 }
 
 /* Logo styling */
 .mainupper {
-    height: 60px;
+    height: 55px;
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 2px 8px rgba(245, 158, 11, 0.3));
@@ -144,8 +165,8 @@ header, .site-header {
     transform: scale(1.03);
 }
 
-/* Top Level Buttons */
-.Journal {
+/* Centered & Slightly Larger GIMS Journal Button */
+.Journal, .header-journal-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -154,21 +175,22 @@ header, .site-header {
     color: #FFFFFF !important;
     font-family: var(--font-sans);
     font-weight: 700;
-    font-size: 0.95rem;
-    padding: 0.75rem 1.4rem;
-    border-radius: var(--radius-md);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: var(--shadow-gold);
+    font-size: 0.95rem !important;
+    padding: 0.65rem 1.4rem !important;
+    border-radius: var(--radius-full) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 18px rgba(245, 158, 11, 0.4);
     cursor: pointer;
     text-decoration: none;
     transition: var(--transition);
-    white-space: nowrap;
+    text-align: center;
+    line-height: 1.25;
 }
 
-.Journal:hover {
+.Journal:hover, .header-journal-btn:hover {
     background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 0 25px rgba(245, 158, 11, 0.45);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 22px rgba(245, 158, 11, 0.55);
 }
 
 .contactus {

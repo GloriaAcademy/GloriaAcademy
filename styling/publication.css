@@ -93,3 +93,46 @@
     box-shadow: var(--shadow-lg);
     margin: 1.5rem 0;
 }
+
+/* Journal Metadata Badges & Dividers */
+.journal-badge {
+    background: rgba(31, 41, 55, 0.8);
+    border: 1px solid var(--border-subtle);
+    padding: 0.6rem 1.25rem;
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+/* Light Theme Overrides for Publications & Journal Dividers */
+html[data-theme="light"] .journal-badge {
+    background: #FFFFFF !important;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    color: #1F2937 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+}
+
+html[data-theme="light"] .journal-badge span {
+    color: #4B5563 !important;
+}
+
+html[data-theme="light"] .buttonlalphone {
+    background: #FFFFFF !important;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    border-left: 4px solid #D97706 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+}
+
+html[data-theme="light"] .buttonlalphone:hover {
+    background: rgba(217, 119, 6, 0.08) !important;
+    border-color: rgba(217, 119, 6, 0.4) !important;
+}
+
+html[data-theme="light"] .Articleslalphone {
+    color: #111827 !important;
+}
+
+html[data-theme="light"] #pdf, 
+html[data-theme="light"] #pdfexpress {
+    background: #F9FAFB !important;
+    border-color: rgba(0, 0, 0, 0.15) !important;
+}
