@@ -44,7 +44,7 @@ padding-left: 5vw;
 }
 
 h2{
-     color: black;
+     color: var(--text-heading);
     font-size: 30px;
     font-family: "Arial", Helvetica, Arial, sans-serif;
     padding-top: 10px;
@@ -75,7 +75,7 @@ p{
     font-size: 17px;
     line-height: 22px;
     margin-left: 20px;
-    color: #161922;
+    color: var(--text-body);
     
 }
 b {
