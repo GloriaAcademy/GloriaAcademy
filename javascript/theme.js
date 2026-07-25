@@ -73,3 +73,52 @@
         initThemeToggle();
     }
 })();
+
+/**
+ * Gloria Academy - Mobile Hamburger Menu Toggle
+ * Wires up #menu-toggle to show/hide the .row1 main nav on small screens.
+ */
+(function () {
+    function initHamburger() {
+        const toggleBtn = document.getElementById('menu-toggle');
+        const nav = document.querySelector('.row1');
+        if (!toggleBtn || !nav) return;
+
+        function openMenu() {
+            nav.classList.add('open');
+            toggleBtn.setAttribute('aria-expanded', 'true');
+            toggleBtn.textContent = '✕';
+        }
+
+        function closeMenu() {
+            nav.classList.remove('open');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            toggleBtn.textContent = '☰';
+        }
+
+        toggleBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            nav.classList.contains('open') ? closeMenu() : openMenu();
+        });
+
+        // Close when clicking outside the nav and not on the toggle button
+        document.addEventListener('click', function (e) {
+            if (!nav.contains(e.target) && e.target !== toggleBtn) {
+                closeMenu();
+            }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeMenu();
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initHamburger);
+    } else {
+        initHamburger();
+    }
+})();
+
+

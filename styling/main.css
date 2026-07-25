@@ -135,8 +135,11 @@ header, .site-header {
 
 .header-logo, .top-bar-table td:first-child {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
+    gap: 0.5rem;
 }
 
 .header-center, .top-bar-table td:nth-child(2) {
@@ -227,7 +230,7 @@ header, .site-header {
     justify-content: center;
     gap: 0.75rem;
     padding: 1rem 1.5rem;
-    margin: 1rem auto 2rem auto;
+    margin: 1rem auto 1rem auto;
     max-width: 1280px;
     background: var(--bg-glass-card);
     backdrop-filter: blur(12px);
@@ -456,7 +459,7 @@ b, strong {
 .main-content, .container, .dv {
     max-width: 1200px;
     margin: 0 auto 3rem auto;
-    padding: 2.5rem;
+    padding: 0 2.5rem 2.5rem 2.5rem;
     background: var(--bg-glass-card);
     backdrop-filter: blur(16px);
     border: 1px solid var(--border-subtle);
@@ -471,10 +474,10 @@ b, strong {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 3rem 1.5rem;
+    padding: 0 1.5rem 2rem 1.5rem;
     background: radial-gradient(circle at center, rgba(99, 102, 241, 0.12) 0%, transparent 70%);
     border-radius: var(--radius-lg);
-    margin: 2rem auto;
+    margin: 0 auto 2rem auto;
     max-width: 1200px;
 }
 
@@ -601,6 +604,117 @@ b, strong {
     }
 }
 
+/* ── Mobile hamburger breakpoint ── */
+@media (max-width: 900px) {
+    header, .site-header {
+        padding: 0.5rem 0.75rem !important;
+    }
+
+    .top-bar-table {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 0.4rem !important;
+    }
+
+    .top-bar-table tbody, .top-bar-table tr {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        gap: 0.4rem !important;
+    }
+
+    /* TOP ROW LEFT: Menu Button + Logo */
+    .top-bar-table td:first-child {
+        width: auto !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 0.5rem !important;
+        flex-wrap: nowrap !important;
+        white-space: nowrap !important;
+    }
+
+    .top-bar-table td:first-child a {
+        display: inline-flex !important;
+        align-items: center !important;
+    }
+
+    /* TOP ROW RIGHT: Journal Button */
+    .top-bar-table td:nth-child(2) {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        flex-shrink: 0 !important;
+        width: auto !important;
+    }
+
+    /* SECOND ROW (RIGHT BELOW TOP ROW): Home, About Us, Contact Us beside each other */
+    .top-bar-table td:last-child {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 0.5rem !important;
+        width: 100% !important;
+        margin-top: 0.25rem !important;
+        padding-top: 0.4rem !important;
+        border-top: 1px solid var(--border-subtle) !important;
+    }
+
+    /* Hide Dark/Light Mode toggle button on small screens */
+    #theme-toggle, .theme-toggle-btn {
+        display: none !important;
+    }
+
+    /* Logo size on mobile */
+    .mainupper {
+        height: 36px !important;
+        max-height: 36px !important;
+        width: auto !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* Show the hamburger button side-by-side with logo */
+    .hamburger-btn {
+        display: inline-flex !important;
+        width: 2.2rem !important;
+        height: 2.2rem !important;
+        font-size: 1.1rem !important;
+        flex-shrink: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Journal button on top row */
+    .header-journal-btn {
+        font-size: 0.82rem !important;
+        padding: 0.4rem 0.75rem !important;
+        white-space: nowrap !important;
+    }
+
+    /* Home, About Us, Contact Us buttons on second row beside each other */
+    .top-bar-table td:last-child .contactus {
+        padding: 0.4rem 0.75rem !important;
+        font-size: 0.82rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* Hide the main nav row by default; shown when toggled */
+    .row1 {
+        display: none !important;
+    }
+    .row1.open {
+        display: flex !important;
+    }
+}
+
 /* Theme Toggle Button */
 .theme-toggle-btn {
     background: rgba(255, 255, 255, 0.1);
@@ -622,6 +736,91 @@ b, strong {
     background: rgba(245, 158, 11, 0.2);
     color: var(--primary-gold);
     border-color: var(--border-accent);
+}
+
+/* ── Hamburger Menu Button ── */
+.hamburger-btn {
+    /* display is controlled per breakpoint — do NOT set it here */
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-heading);
+    font-family: var(--font-sans);
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition);
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.hamburger-btn:hover {
+    background: rgba(245, 158, 11, 0.2);
+    color: var(--primary-gold);
+    border-color: var(--border-accent);
+}
+
+.hamburger-btn[aria-expanded="true"] {
+    background: rgba(245, 158, 11, 0.25);
+    color: var(--primary-gold);
+    border-color: var(--border-accent);
+}
+
+/* Desktop: hamburger hidden, theme toggle visible, side-by-side hero so all content is visible above the fold */
+@media (min-width: 901px) {
+    .hamburger-btn {
+        display: none;
+    }
+    #theme-toggle, .theme-toggle-btn {
+        display: inline-flex;
+    }
+
+    /* Desktop Hero Layout: Side-by-side arrangement */
+    .ghada_text {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        gap: 2.5rem;
+        padding: 2.5rem 2.5rem;
+        margin: 0 auto 1.5rem auto;
+    }
+
+    .ghada_text > div:first-child {
+        flex: 1;
+        max-width: 640px;
+    }
+
+    .ghada_text > div:last-child {
+        margin-top: 0 !important;
+        flex-shrink: 0;
+    }
+
+    .ghada_text h5 {
+        font-size: 2.0rem;
+        text-align: left;
+        margin: 0.75rem 0 1rem 0;
+    }
+
+    .ghada_text p {
+        text-align: left !important;
+        margin: 1rem 0 !important;
+        font-size: 1.05rem;
+    }
+
+    .ghada_text div[style*="display: flex"] {
+        justify-content: flex-start !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .ghada {
+        max-height: 360px;
+        width: auto;
+    }
 }
 
 /* Light Theme Overrides & Full Text Visibility Fixes */
@@ -695,7 +894,8 @@ html[data-theme="light"] .Journal:hover {
 }
 
 html[data-theme="light"] .contactus,
-html[data-theme="light"] .theme-toggle-btn {
+html[data-theme="light"] .theme-toggle-btn,
+html[data-theme="light"] .hamburger-btn {
     background: #FFFFFF !important;
     color: #1F2937 !important;
     border: 1px solid rgba(0, 0, 0, 0.15) !important;
@@ -703,10 +903,17 @@ html[data-theme="light"] .theme-toggle-btn {
 }
 
 html[data-theme="light"] .contactus:hover,
-html[data-theme="light"] .theme-toggle-btn:hover {
+html[data-theme="light"] .theme-toggle-btn:hover,
+html[data-theme="light"] .hamburger-btn:hover,
+html[data-theme="light"] .hamburger-btn[aria-expanded="true"] {
     background: rgba(217, 119, 6, 0.1) !important;
     color: #D97706 !important;
     border-color: rgba(217, 119, 6, 0.4) !important;
+}
+
+html[data-theme="light"] .header-nav-actions {
+    background: rgba(255, 255, 255, 0.96) !important;
+    border-color: rgba(0, 0, 0, 0.12) !important;
 }
 
 html[data-theme="light"] .submit {
