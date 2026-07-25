@@ -5,9 +5,19 @@
  */
 
 (function () {
-    // 1. Instantly apply theme from localStorage (defaults to 'light')
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
+    // 1. Instantly apply theme (on smaller screens <= 900px, default mode is always 'light')
+    const isSmallScreen = window.innerWidth <= 900;
+    const savedTheme = localStorage.getItem('theme');
+    
+    let activeTheme = 'light';
+    if (isSmallScreen) {
+        activeTheme = savedTheme || 'light';
+    } else {
+        activeTheme = savedTheme || 'light';
+    }
+
+    // Set data-theme on <html> tag
+    document.documentElement.setAttribute('data-theme', activeTheme);
 
     function updateToggleButton(btn, theme) {
         if (!btn) return;
