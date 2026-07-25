@@ -5,19 +5,27 @@
  */
 
 (function () {
-    // 1. Instantly apply theme (on smaller screens <= 900px, default mode is always 'light')
-    const isSmallScreen = window.innerWidth <= 900;
-    const savedTheme = localStorage.getItem('theme');
-    
-    let activeTheme = 'light';
-    if (isSmallScreen) {
-        activeTheme = savedTheme || 'light';
-    } else {
-        activeTheme = savedTheme || 'light';
+    // 1. Instantly apply theme (on smaller screens <= 900px, default mode is strictly 'light')
+    function applyResponsiveTheme() {
+        const isSmallScreen = window.innerWidth <= 900;
+        let activeTheme = 'light';
+
+        if (isSmallScreen) {
+            // On smaller screens (<= 900px), default mode is ALWAYS 'light'
+            activeTheme = 'light';
+        } else {
+            // On desktop (> 900px), use saved preference or default to 'light'
+            activeTheme = localStorage.getItem('theme') || 'light';
+        }
+
+        document.documentElement.setAttribute('data-theme', activeTheme);
     }
 
-    // Set data-theme on <html> tag
-    document.documentElement.setAttribute('data-theme', activeTheme);
+    // Apply instantly before DOM renders
+    applyResponsiveTheme();
+
+    // Re-check on window resize
+    window.addEventListener('resize', applyResponsiveTheme);
 
     function updateToggleButton(btn, theme) {
         if (!btn) return;
@@ -34,31 +42,9 @@
         let toggleBtn = document.getElementById('theme-toggle');
         const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
 
-        // Auto-inject theme button if header exists but button is missing
-        if (!toggleBtn) {
-            const headerNavTd = document.querySelector('.site-header table tr td:last-child') ||
-                                document.querySelector('.site-header') ||
-                                document.querySelector('header') ||
-                                document.querySelector('.top-bar-table tr td:last-child') ||
-                                document.querySelector('.row1') ||
-                                document.body;
-            if (headerNavTd) {
-                toggleBtn = document.createElement('button');
-                toggleBtn.id = 'theme-toggle';
-                toggleBtn.className = 'theme-toggle-btn';
-                toggleBtn.style.marginRight = '0.5rem';
-                if (headerNavTd.firstChild) {
-                    headerNavTd.insertBefore(toggleBtn, headerNavTd.firstChild);
-                } else {
-                    headerNavTd.appendChild(toggleBtn);
-                }
-            }
-        }
-
         if (toggleBtn) {
             updateToggleButton(toggleBtn, activeTheme);
 
-            // Avoid duplicate listeners
             if (!toggleBtn.dataset.bound) {
                 toggleBtn.dataset.bound = 'true';
                 toggleBtn.addEventListener('click', () => {
@@ -68,7 +54,6 @@
                     document.documentElement.setAttribute('data-theme', nextTheme);
                     localStorage.setItem('theme', nextTheme);
                     
-                    // Update all buttons if multiple exist
                     document.querySelectorAll('#theme-toggle, .theme-toggle-btn').forEach(btn => {
                         updateToggleButton(btn, nextTheme);
                     });
