@@ -110,7 +110,7 @@ h9 {
 header, .site-header {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 2000;
     background: var(--bg-glass);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -249,6 +249,10 @@ header, .site-header {
     z-index: 1001;
 }
 
+.dropdown:hover, .dropdown:focus-within {
+    z-index: 9999 !important;
+}
+
 .dropbtn {
     font-family: var(--font-sans);
     font-weight: 600;
@@ -291,12 +295,19 @@ header, .site-header {
     background: #1F2937;
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
-    z-index: 1100;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    z-index: 9999 !important;
     padding: 0.5rem 0;
     margin-top: 0.2rem;
     overflow: visible;
     animation: fadeInSlideUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Right-align header dropdowns (e.g. Contact Us) so they open towards the left inside the screen frame */
+.site-header .dropdown-content,
+.top-bar-table .dropdown-content {
+    left: auto;
+    right: 0;
 }
 
 /* Invisible bridge between button and dropdown list to prevent hover loss */
