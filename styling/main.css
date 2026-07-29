@@ -77,6 +77,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ── Universal View Transitions & Page Entrance/Exit Animations ── */
+@view-transition {
+    navigation: auto;
+}
+
 body {
     background-color: var(--bg-dark);
     background-image: 
@@ -91,6 +96,24 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    animation: pageEnter 0.07s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+body.page-exit {
+    opacity: 0 !important;
+    transform: translateY(-2px) !important;
+    transition: opacity 0.05s ease-out, transform 0.05s ease-out !important;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+        transform: translateY(3px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Hide obsolete h9 text element visually while remaining accessible */
@@ -720,9 +743,51 @@ b, strong {
     /* Hide the main nav row by default; shown when toggled */
     .row1 {
         display: none !important;
+        transform-origin: top center;
     }
     .row1.open {
         display: flex !important;
+        animation: navSlideDown 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .row1.closing {
+        display: flex !important;
+        animation: navSlideUp 0.14s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
+    }
+    .row1.open > div {
+        animation: navItemFade 0.15s cubic-bezier(0.16, 1, 0.3, 1) ease-out forwards;
+    }
+}
+
+@keyframes navSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px) scaleY(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+    }
+}
+
+@keyframes navSlideUp {
+    from {
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-8px) scaleY(0.97);
+    }
+}
+
+@keyframes navItemFade {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -762,7 +827,10 @@ b, strong {
     height: 2.4rem;
     border-radius: var(--radius-md);
     cursor: pointer;
-    transition: var(--transition);
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                background-color 0.15s ease,
+                border-color 0.15s ease,
+                box-shadow 0.15s ease;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
@@ -773,12 +841,19 @@ b, strong {
     background: rgba(245, 158, 11, 0.2);
     color: var(--primary-gold);
     border-color: var(--border-accent);
+    transform: scale(1.08);
+}
+
+.hamburger-btn:active {
+    transform: scale(0.92);
 }
 
 .hamburger-btn[aria-expanded="true"] {
     background: rgba(245, 158, 11, 0.25);
     color: var(--primary-gold);
     border-color: var(--border-accent);
+    transform: rotate(180deg) scale(1.05);
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
 }
 
 /* Desktop: hamburger hidden, theme toggle visible, side-by-side hero so all content is visible above the fold */

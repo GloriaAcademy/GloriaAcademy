@@ -91,8 +91,17 @@
 }
 
 .DRS_text:hover, .Lubna_text:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 0 16px rgba(245, 158, 11, 0.45);
+}
+
+.DRS_text:active, .Lubna_text:active {
+    transform: scale(0.94);
+}
+
+.DRS_text[aria-expanded="true"], .Lubna_text[aria-expanded="true"] {
+    background: linear-gradient(135deg, var(--primary-gold-hover) 0%, var(--primary-gold) 100%);
+    box-shadow: 0 0 18px rgba(245, 158, 11, 0.45);
 }
 
 .DRS_text_other, .Lubna_text_other {
@@ -119,16 +128,32 @@
 
 /* Animated Bio Container */
 .bio-container {
-    animation: fadeInSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: fadeInSlideUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    transform-origin: top center;
+}
+
+.bio-container.closing {
+    animation: fadeOutSlideDown 0.15s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
 }
 
 @keyframes fadeInSlideUp {
     from {
         opacity: 0;
-        transform: translateY(8px);
+        transform: translateY(-6px) scaleY(0.97);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scaleY(1);
+    }
+}
+
+@keyframes fadeOutSlideDown {
+    from {
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-6px) scaleY(0.97);
     }
 }

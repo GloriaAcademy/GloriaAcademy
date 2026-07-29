@@ -148,15 +148,25 @@
         function toggleBio(bioId, btn) {
             const bio = document.getElementById(bioId);
             if (!bio) return;
+
+            if (bio.classList.contains('closing')) return;
+
             const isHidden = bio.style.display === 'none' || bio.style.display === '';
+
             if (isHidden) {
+                bio.classList.remove('closing');
                 bio.style.display = 'block';
                 btn.innerHTML = '🙈 Hide Biography';
                 btn.setAttribute('aria-expanded', 'true');
             } else {
-                bio.style.display = 'none';
-                btn.innerHTML = '📖 View Full Biography';
+                bio.classList.add('closing');
                 btn.setAttribute('aria-expanded', 'false');
+                btn.innerHTML = '📖 View Full Biography';
+
+                setTimeout(function () {
+                    bio.style.display = 'none';
+                    bio.classList.remove('closing');
+                }, 150);
             }
         }
     </script>
