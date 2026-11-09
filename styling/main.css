@@ -497,14 +497,25 @@ b, strong {
     max-width: 1200px;
 }
 
+.ghada-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .ghada {
     height: auto;
-    max-height: 420px;
+    max-height: 400px;
     max-width: 100%;
+    width: auto;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-lg), var(--shadow-gold);
     border: 2px solid var(--border-accent);
     object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0 auto;
     transition: var(--transition);
 }
 
@@ -880,8 +891,10 @@ b, strong {
     }
 
     .ghada {
-        max-height: 360px;
+        max-height: 380px;
         width: auto;
+        object-fit: cover;
+        object-position: center top;
     }
 }
 
